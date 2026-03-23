@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-03-23T11:13:57.361Z",
+  "summary": {
+    "today": 0.00195,
+    "weekToDate": 0.00195,
+    "monthToDate": 0.00195,
+    "dailyBudget": 20,
+    "weeklyBudget": 150,
+    "monthlyBudget": 300,
+    "dailyPct": "0.0",
+    "weeklyPct": "0.0",
+    "monthlyPct": "0.0"
+  },
+  "costs": [
+    {
+      "date": "2026-03-23",
+      "service": "openai",
+      "job_name": "Morning Brief",
+      "input_tokens": 5000,
+      "output_tokens": 2000,
+      "cost_usd": 0.00195,
+      "created_at": "2026-03-23 11:13:20"
+    }
+  ],
+  "alerts": [],
+  "health": {
+    "gmail": {
+      "status": "valid",
+      "lastCheck": "2026-03-23T11:13:57.361Z"
+    },
+    "telegram": {
+      "status": "valid",
+      "lastCheck": "2026-03-23T11:13:57.361Z"
+    },
+    "cron": {
+      "successRate": 95,
+      "lastCheck": "2026-03-23T11:13:57.361Z"
+    }
+  }
+}
