@@ -277,6 +277,59 @@
             border-top: 1px solid #2a2f36;
         }
 
+        .provider-breakdown {
+            grid-column: 1 / -1;
+        }
+
+        .provider-charts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .provider-chart {
+            background: #0f1419;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .provider-chart-title {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .provider-chart-container {
+            position: relative;
+            height: 180px;
+            margin-bottom: 10px;
+        }
+
+        .provider-colors {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+            font-size: 11px;
+            color: #888;
+        }
+
+        .color-indicator {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .color-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
         @media (max-width: 768px) {
             .dashboard {
                 grid-template-columns: 1fr;
@@ -286,7 +339,15 @@
                 grid-column: 1;
             }
 
+            .provider-breakdown {
+                grid-column: 1;
+            }
+
             .summary-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .provider-charts {
                 grid-template-columns: 1fr;
             }
         }
@@ -325,6 +386,73 @@
                         <div class="summary-value">$<span id="monthSpend">0.00</span></div>
                         <div class="summary-percent">
                             <span id="monthlyPct">0</span>% of $300 budget
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cost by Provider -->
+            <div class="widget provider-breakdown">
+                <div class="widget-title">🏢 Cost by Provider</div>
+                <div class="provider-charts">
+                    <div class="provider-chart">
+                        <div class="provider-chart-title">Today</div>
+                        <div class="provider-chart-container">
+                            <canvas id="providerChartDay"></canvas>
+                        </div>
+                        <div class="provider-colors">
+                            <div class="color-indicator">
+                                <div class="color-dot" style="background: #3b82f6;"></div>
+                                <span>Anthropic</span>
+                            </div>
+                            <div class="color-indicator">
+                                <div class="color-dot" style="background: #10b981;"></div>
+                                <span>OpenAI</span>
+                            </div>
+                            <div class="color-indicator">
+                                <div class="color-dot" style="background: #f59e0b;"></div>
+                                <span>Google</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="provider-chart">
+                        <div class="provider-chart-title">This Week</div>
+                        <div class="provider-chart-container">
+                            <canvas id="providerChartWeek"></canvas>
+                        </div>
+                        <div class="provider-colors">
+                            <div class="color-indicator">
+                                <div class="color-dot" style="background: #3b82f6;"></div>
+                                <span>Anthropic</span>
+                            </div>
+                            <div class="color-indicator">
+                                <div class="color-dot" style="background: #10b981;"></div>
+                                <span>OpenAI</span>
+                            </div>
+                            <div class="color-indicator">
+                                <div class="color-dot" style="background: #f59e0b;"></div>
+                                <span>Google</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="provider-chart">
+                        <div class="provider-chart-title">This Month</div>
+                        <div class="provider-chart-container">
+                            <canvas id="providerChartMonth"></canvas>
+                        </div>
+                        <div class="provider-colors">
+                            <div class="color-indicator">
+                                <div class="color-dot" style="background: #3b82f6;"></div>
+                                <span>Anthropic</span>
+                            </div>
+                            <div class="color-indicator">
+                                <div class="color-dot" style="background: #10b981;"></div>
+                                <span>OpenAI</span>
+                            </div>
+                            <div class="color-indicator">
+                                <div class="color-dot" style="background: #f59e0b;"></div>
+                                <span>Google</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -506,6 +634,7 @@
     <script>
         // Global state
         let serviceChart, jobChart, trendChart, decisionVelocityChart, autonomyChart;
+        let providerChartDay, providerChartWeek, providerChartMonth;
         let costData = {};
 
         /**
@@ -528,6 +657,7 @@
          */
         function updateDashboard() {
             updateCostSummary();
+            updateProviderCharts();
             updateCharts();
             updateHealthStatus();
             updateTaskExecutionMetrics();
@@ -573,6 +703,168 @@
             } else if (pct >= 75) {
                 element.classList.add('warning');
             }
+        }
+
+        /**
+         * Update provider breakdown pie charts
+         */
+        function updateProviderCharts() {
+            const costByProvider = costData.costByProvider || {
+                anthropic: { today: 0, week: 0, month: 0 },
+                openai: { today: 0, week: 0, month: 0 },
+                google: { today: 0, week: 0, month: 0 }
+            };
+
+            const providerColors = {
+                anthropic: '#3b82f6',
+                openai: '#10b981',
+                google: '#f59e0b'
+            };
+
+            const providerLabels = {
+                anthropic: 'Anthropic',
+                openai: 'OpenAI',
+                google: 'Google'
+            };
+
+            // Chart configuration factory
+            const createProviderChart = (canvasId, period) => {
+                const ctx = document.getElementById(canvasId).getContext('2d');
+                const labels = [];
+                const data = [];
+                const colors = [];
+                let total = 0;
+
+                for (const [provider, costs] of Object.entries(costByProvider)) {
+                    const cost = costs[period] || 0;
+                    if (cost > 0 || Object.values(costByProvider).some(c => c[period] > 0)) {
+                        labels.push(providerLabels[provider]);
+                        data.push(cost);
+                        colors.push(providerColors[provider]);
+                        total += cost;
+                    }
+                }
+
+                // Add zero-cost providers for consistency
+                if (data.length === 0) {
+                    labels.push('No costs');
+                    data.push(1);
+                    colors.push('#444');
+                }
+
+                return {
+                    ctx,
+                    labels,
+                    data,
+                    colors,
+                    total
+                };
+            };
+
+            // Day Chart
+            const dayConfig = createProviderChart('providerChartDay', 'today');
+            if (providerChartDay) providerChartDay.destroy();
+            providerChartDay = new Chart(dayConfig.ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: dayConfig.labels,
+                    datasets: [{
+                        data: dayConfig.data,
+                        backgroundColor: dayConfig.colors,
+                        borderColor: '#1a1f26',
+                        borderWidth: 2,
+                    }],
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const value = context.parsed;
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percent = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                                    return `$${value.toFixed(2)} (${percent}%)`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Week Chart
+            const weekConfig = createProviderChart('providerChartWeek', 'week');
+            if (providerChartWeek) providerChartWeek.destroy();
+            providerChartWeek = new Chart(weekConfig.ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: weekConfig.labels,
+                    datasets: [{
+                        data: weekConfig.data,
+                        backgroundColor: weekConfig.colors,
+                        borderColor: '#1a1f26',
+                        borderWidth: 2,
+                    }],
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const value = context.parsed;
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percent = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                                    return `$${value.toFixed(2)} (${percent}%)`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Month Chart
+            const monthConfig = createProviderChart('providerChartMonth', 'month');
+            if (providerChartMonth) providerChartMonth.destroy();
+            providerChartMonth = new Chart(monthConfig.ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: monthConfig.labels,
+                    datasets: [{
+                        data: monthConfig.data,
+                        backgroundColor: monthConfig.colors,
+                        borderColor: '#1a1f26',
+                        borderWidth: 2,
+                    }],
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const value = context.parsed;
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percent = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                                    return `$${value.toFixed(2)} (${percent}%)`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
         }
 
         /**

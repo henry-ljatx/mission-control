@@ -96,13 +96,34 @@
     "decisionActionRatio": 1.8,
     "totalDecisions": 34,
     "trends": [
-      {"date": "Mar 18", "decisionHours": 6.5},
-      {"date": "Mar 19", "decisionHours": 5.2},
-      {"date": "Mar 20", "decisionHours": 3.8},
-      {"date": "Mar 21", "decisionHours": 4.1},
-      {"date": "Mar 22", "decisionHours": 3.5},
-      {"date": "Mar 23", "decisionHours": 4.6},
-      {"date": "Mar 24", "decisionHours": 4.2}
+      {
+        "date": "Mar 18",
+        "decisionHours": 6.5
+      },
+      {
+        "date": "Mar 19",
+        "decisionHours": 5.2
+      },
+      {
+        "date": "Mar 20",
+        "decisionHours": 3.8
+      },
+      {
+        "date": "Mar 21",
+        "decisionHours": 4.1
+      },
+      {
+        "date": "Mar 22",
+        "decisionHours": 3.5
+      },
+      {
+        "date": "Mar 23",
+        "decisionHours": 4.6
+      },
+      {
+        "date": "Mar 24",
+        "decisionHours": 4.2
+      }
     ]
   },
   "autonomyMetrics": {
@@ -111,13 +132,34 @@
     "sevenDayTrend": 3.5,
     "totalTasks": 156,
     "trends": [
-      {"date": "Mar 18", "autonomousPercent": 68},
-      {"date": "Mar 19", "autonomousPercent": 69},
-      {"date": "Mar 20", "autonomousPercent": 71},
-      {"date": "Mar 21", "autonomousPercent": 72},
-      {"date": "Mar 22", "autonomousPercent": 73},
-      {"date": "Mar 23", "autonomousPercent": 74},
-      {"date": "Mar 24", "autonomousPercent": 73}
+      {
+        "date": "Mar 18",
+        "autonomousPercent": 68
+      },
+      {
+        "date": "Mar 19",
+        "autonomousPercent": 69
+      },
+      {
+        "date": "Mar 20",
+        "autonomousPercent": 71
+      },
+      {
+        "date": "Mar 21",
+        "autonomousPercent": 72
+      },
+      {
+        "date": "Mar 22",
+        "autonomousPercent": 73
+      },
+      {
+        "date": "Mar 23",
+        "autonomousPercent": 74
+      },
+      {
+        "date": "Mar 24",
+        "autonomousPercent": 73
+      }
     ]
   },
   "health": {
@@ -144,5 +186,1212 @@
       "successRate": 85,
       "lastCheck": "2026-03-23T15:56:00Z"
     }
-  }
+  },
+  "costByProvider": {
+    "anthropic": {
+      "today": 0.17,
+      "week": 0.55,
+      "month": 3.59,
+      "breakdown": [
+        {
+          "timestamp": 1772938881285,
+          "cost": 0.0512,
+          "tokens": 3418,
+          "model": "claude-sonnet-4-6",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773021665764,
+          "cost": 0.0328,
+          "tokens": 2189,
+          "model": "claude-sonnet-4-6",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773108058733,
+          "cost": 0.0253,
+          "tokens": 1692,
+          "model": "claude-sonnet-4-6",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773194445723,
+          "cost": 0.0279,
+          "tokens": 1868,
+          "model": "claude-sonnet-4-6",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773280863844,
+          "cost": 0.0293,
+          "tokens": 1958,
+          "model": "claude-sonnet-4-6",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773367240604,
+          "cost": 0.0082,
+          "tokens": 2068,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773453626480,
+          "cost": 0.0045,
+          "tokens": 1142,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773540032816,
+          "cost": 0.0081,
+          "tokens": 2054,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773626428742,
+          "cost": 0.0091,
+          "tokens": 2283,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773712845543,
+          "cost": 0.012,
+          "tokens": 3035,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1773799632079,
+          "cost": 0.0107,
+          "tokens": 2742,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1774121628864,
+          "cost": 0.0091,
+          "tokens": 2292,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1774144851288,
+          "cost": 0.0169,
+          "tokens": 4273,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1774231235817,
+          "cost": 0.0092,
+          "tokens": 2338,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1774317688212,
+          "cost": 0.009,
+          "tokens": 2286,
+          "model": "claude-haiku-4-5",
+          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
+        },
+        {
+          "timestamp": 1772420452259,
+          "cost": 0.0909,
+          "tokens": 1522,
+          "model": "claude-opus-4-6",
+          "jobId": "b13ba6b3-352d-4758-9d42-c8dd9756d627"
+        },
+        {
+          "timestamp": 1772506860034,
+          "cost": 0.1116,
+          "tokens": 1867,
+          "model": "claude-opus-4-6",
+          "jobId": "b13ba6b3-352d-4758-9d42-c8dd9756d627"
+        },
+        {
+          "timestamp": 1772942448157,
+          "cost": 0.0299,
+          "tokens": 2000,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773025234730,
+          "cost": 0.017,
+          "tokens": 1140,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773111635701,
+          "cost": 0.0174,
+          "tokens": 1161,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773198052041,
+          "cost": 0.0218,
+          "tokens": 1461,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773284433626,
+          "cost": 0.0192,
+          "tokens": 1283,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773370845266,
+          "cost": 0.024,
+          "tokens": 1607,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773457442370,
+          "cost": 0.0177,
+          "tokens": 1182,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773543637129,
+          "cost": 0.0177,
+          "tokens": 1182,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773630143087,
+          "cost": 0.0881,
+          "tokens": 5901,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773716448759,
+          "cost": 0.0336,
+          "tokens": 2247,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1773803162588,
+          "cost": 0.0149,
+          "tokens": 994,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1774121628863,
+          "cost": 0.0264,
+          "tokens": 1769,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1774148434942,
+          "cost": 0.019,
+          "tokens": 1273,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1774234842956,
+          "cost": 0.0202,
+          "tokens": 1352,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1774321316313,
+          "cost": 0.0539,
+          "tokens": 3608,
+          "model": "claude-sonnet-4-6",
+          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
+        },
+        {
+          "timestamp": 1774291235487,
+          "cost": 0.0151,
+          "tokens": 3881,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774292462141,
+          "cost": 0.0185,
+          "tokens": 4736,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774294237323,
+          "cost": 0.0118,
+          "tokens": 2985,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774296029867,
+          "cost": 0.0065,
+          "tokens": 1638,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774297822793,
+          "cost": 0.0074,
+          "tokens": 1868,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774299639669,
+          "cost": 0.0102,
+          "tokens": 2605,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774301423716,
+          "cost": 0.0057,
+          "tokens": 1445,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774303225473,
+          "cost": 0.006,
+          "tokens": 1519,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774305025739,
+          "cost": 0.006,
+          "tokens": 1525,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774306868877,
+          "cost": 0.0142,
+          "tokens": 3655,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774308633002,
+          "cost": 0.008,
+          "tokens": 2045,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774310426678,
+          "cost": 0.0068,
+          "tokens": 1742,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774312243702,
+          "cost": 0.0124,
+          "tokens": 3191,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774314044481,
+          "cost": 0.0085,
+          "tokens": 2188,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774315840535,
+          "cost": 0.0092,
+          "tokens": 2363,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774317688213,
+          "cost": 0.0039,
+          "tokens": 1000,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774319449169,
+          "cost": 0.0149,
+          "tokens": 3853,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774321316314,
+          "cost": 0.005,
+          "tokens": 1271,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774323022014,
+          "cost": 0.0048,
+          "tokens": 1211,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774324883549,
+          "cost": 0.0061,
+          "tokens": 1582,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774326624053,
+          "cost": 0.0065,
+          "tokens": 1654,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774328429309,
+          "cost": 0.0061,
+          "tokens": 1554,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774330233646,
+          "cost": 0.0092,
+          "tokens": 2353,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774332032325,
+          "cost": 0.0076,
+          "tokens": 1939,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774333831946,
+          "cost": 0.0084,
+          "tokens": 2139,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774335629533,
+          "cost": 0.0074,
+          "tokens": 1909,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774337423218,
+          "cost": 0.006,
+          "tokens": 1512,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774339256365,
+          "cost": 0.0106,
+          "tokens": 2696,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774341035516,
+          "cost": 0.0097,
+          "tokens": 2487,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774342830796,
+          "cost": 0.0075,
+          "tokens": 1925,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774344632618,
+          "cost": 0.0065,
+          "tokens": 1648,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774346422161,
+          "cost": 0.0042,
+          "tokens": 1063,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774348257222,
+          "cost": 0.0136,
+          "tokens": 3479,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774350124915,
+          "cost": 0.0079,
+          "tokens": 2027,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774351831520,
+          "cost": 0.0059,
+          "tokens": 1512,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774353621958,
+          "cost": 0.0053,
+          "tokens": 1339,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774355417772,
+          "cost": 0.0064,
+          "tokens": 1609,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1773010820966,
+          "cost": 0.0037,
+          "tokens": 950,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773097229177,
+          "cost": 0.0046,
+          "tokens": 1181,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773183622969,
+          "cost": 0.0037,
+          "tokens": 953,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773270021130,
+          "cost": 0.0041,
+          "tokens": 1058,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773356425748,
+          "cost": 0.0038,
+          "tokens": 981,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773442866947,
+          "cost": 0.0037,
+          "tokens": 955,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773529219664,
+          "cost": 0.005,
+          "tokens": 1274,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773615617650,
+          "cost": 0.0033,
+          "tokens": 834,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773702027352,
+          "cost": 0.0043,
+          "tokens": 1112,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773788635243,
+          "cost": 0.0035,
+          "tokens": 885,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1774121628866,
+          "cost": 0.0055,
+          "tokens": 1391,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1774134021982,
+          "cost": 0.0047,
+          "tokens": 1184,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1774220421052,
+          "cost": 0.0046,
+          "tokens": 1168,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1774306868876,
+          "cost": 0.0041,
+          "tokens": 1046,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-notification-reminder-6pm"
+        },
+        {
+          "timestamp": 1773598026556,
+          "cost": 0.0168,
+          "tokens": 4273,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-self-improvement-ritual"
+        },
+        {
+          "timestamp": 1773666060776,
+          "cost": 0.0138,
+          "tokens": 3523,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-self-improvement-ritual"
+        },
+        {
+          "timestamp": 1773754815322,
+          "cost": 0.161,
+          "tokens": 2696,
+          "model": "claude-opus-4-6",
+          "jobId": "daily-self-improvement-ritual"
+        },
+        {
+          "timestamp": 1773839439468,
+          "cost": 0.0248,
+          "tokens": 6288,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-self-improvement-ritual"
+        },
+        {
+          "timestamp": 1774121628868,
+          "cost": 0.0359,
+          "tokens": 9052,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-self-improvement-ritual"
+        },
+        {
+          "timestamp": 1774184500920,
+          "cost": 0.0331,
+          "tokens": 8419,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-self-improvement-ritual"
+        },
+        {
+          "timestamp": 1774270909921,
+          "cost": 0.0346,
+          "tokens": 8782,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-self-improvement-ritual"
+        },
+        {
+          "timestamp": 1772366450735,
+          "cost": 0.0134,
+          "tokens": 3395,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772452868004,
+          "cost": 0.0181,
+          "tokens": 4583,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772539265943,
+          "cost": 0.019,
+          "tokens": 4856,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772545590677,
+          "cost": 0.0184,
+          "tokens": 4653,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772625720023,
+          "cost": 0.0278,
+          "tokens": 7042,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772712051352,
+          "cost": 0.0137,
+          "tokens": 3471,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772713268349,
+          "cost": 0.0219,
+          "tokens": 5561,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772853834533,
+          "cost": 0.2434,
+          "tokens": 4064,
+          "model": "claude-opus-4-6",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772855924947,
+          "cost": 0.2813,
+          "tokens": 4696,
+          "model": "claude-opus-4-6",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772884904329,
+          "cost": 0.2309,
+          "tokens": 3854,
+          "model": "claude-opus-4-6",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773140505587,
+          "cost": 0.0657,
+          "tokens": 4392,
+          "model": "claude-sonnet-4-6",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773226919594,
+          "cost": 0.074,
+          "tokens": 4937,
+          "model": "claude-sonnet-4-6",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773313331040,
+          "cost": 0.097,
+          "tokens": 6476,
+          "model": "claude-sonnet-4-6",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773399679343,
+          "cost": 0.017,
+          "tokens": 4292,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773486056915,
+          "cost": 0.0175,
+          "tokens": 4445,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773572472997,
+          "cost": 0.0281,
+          "tokens": 7094,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773658930838,
+          "cost": 0.0549,
+          "tokens": 13815,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773745289544,
+          "cost": 0.0269,
+          "tokens": 6831,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773833594496,
+          "cost": 0.181,
+          "tokens": 3023,
+          "model": "claude-opus-4-6",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1774121628862,
+          "cost": 0.0235,
+          "tokens": 5946,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1774177258062,
+          "cost": 0.0201,
+          "tokens": 5108,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1774263702377,
+          "cost": 0.0367,
+          "tokens": 9280,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1774350124915,
+          "cost": 0.0191,
+          "tokens": 4852,
+          "model": "claude-haiku-4-5",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1774290048375,
+          "cost": 0.003,
+          "tokens": 781,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774292473816,
+          "cost": 0.0012,
+          "tokens": 317,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774296069821,
+          "cost": 0.0014,
+          "tokens": 365,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774299675593,
+          "cost": 0.0036,
+          "tokens": 922,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774303279341,
+          "cost": 0.0043,
+          "tokens": 1100,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774306876107,
+          "cost": 0.0013,
+          "tokens": 331,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774310476121,
+          "cost": 0.0038,
+          "tokens": 986,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774314076111,
+          "cost": 0.0035,
+          "tokens": 910,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774317695804,
+          "cost": 0.0014,
+          "tokens": 362,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774321327213,
+          "cost": 0.0012,
+          "tokens": 323,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774324900106,
+          "cost": 0.0035,
+          "tokens": 899,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774328468765,
+          "cost": 0.0014,
+          "tokens": 376,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774332073070,
+          "cost": 0.003,
+          "tokens": 780,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774335673625,
+          "cost": 0.0033,
+          "tokens": 863,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774339274486,
+          "cost": 0.0036,
+          "tokens": 918,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774342876015,
+          "cost": 0.0047,
+          "tokens": 1209,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774346474715,
+          "cost": 0.0035,
+          "tokens": 899,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774350131050,
+          "cost": 0.0012,
+          "tokens": 318,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774353670085,
+          "cost": 0.0013,
+          "tokens": 353,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1772956831545,
+          "cost": 0.0048,
+          "tokens": 1257,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773043223446,
+          "cost": 0.0043,
+          "tokens": 1115,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773129632207,
+          "cost": 0.0062,
+          "tokens": 1631,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773216027820,
+          "cost": 0.0042,
+          "tokens": 1094,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773302430580,
+          "cost": 0.0046,
+          "tokens": 1218,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773388824376,
+          "cost": 0.0041,
+          "tokens": 1073,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773475217160,
+          "cost": 0.0025,
+          "tokens": 661,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773561633719,
+          "cost": 0.0089,
+          "tokens": 2287,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773648028036,
+          "cost": 0.0068,
+          "tokens": 1769,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773734425390,
+          "cost": 0.0052,
+          "tokens": 1343,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1773821712121,
+          "cost": 0.0145,
+          "tokens": 3728,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1774121628865,
+          "cost": 0.0095,
+          "tokens": 2452,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1774166424149,
+          "cost": 0.0053,
+          "tokens": 1372,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1774252845646,
+          "cost": 0.0095,
+          "tokens": 2500,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1774339256364,
+          "cost": 0.0047,
+          "tokens": 1222,
+          "model": "claude-haiku-4-5",
+          "jobId": "oauth-healer-daily"
+        },
+        {
+          "timestamp": 1772928015484,
+          "cost": 0.0025,
+          "tokens": 637,
+          "model": "claude-haiku-4-5",
+          "jobId": "reminder-6pm-march7"
+        },
+        {
+          "timestamp": 1773442866948,
+          "cost": 0.0113,
+          "tokens": 2842,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1773460844696,
+          "cost": 0.0127,
+          "tokens": 3196,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1773547241377,
+          "cost": 0.0117,
+          "tokens": 2971,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1773633684943,
+          "cost": 0.0161,
+          "tokens": 4077,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1773720236254,
+          "cost": 0.0817,
+          "tokens": 20587,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1773806967867,
+          "cost": 0.016,
+          "tokens": 4095,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1774121628866,
+          "cost": 0.0643,
+          "tokens": 16210,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1774152172453,
+          "cost": 0.0648,
+          "tokens": 16351,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1774238451766,
+          "cost": 0.0136,
+          "tokens": 3469,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1774324883548,
+          "cost": 0.0158,
+          "tokens": 3979,
+          "model": "claude-haiku-4-5",
+          "jobId": "self-improvement-scan-nightly"
+        },
+        {
+          "timestamp": 1773638428429,
+          "cost": 0.0036,
+          "tokens": 909,
+          "model": "claude-haiku-4-5",
+          "jobId": "weekly-manifest-checkin"
+        },
+        {
+          "timestamp": 1774121628867,
+          "cost": 0.0035,
+          "tokens": 895,
+          "model": "claude-haiku-4-5",
+          "jobId": "weekly-manifest-checkin"
+        }
+      ]
+    },
+    "openai": {
+      "today": 0,
+      "week": 0,
+      "month": 3.22,
+      "breakdown": [
+        {
+          "timestamp": 1772545281266,
+          "cost": 0.1755,
+          "tokens": 17223,
+          "model": "gpt-5.1-codex",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772798564297,
+          "cost": 0.9053,
+          "tokens": 79722,
+          "model": "gpt-5.1-codex",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772813259415,
+          "cost": 0.1084,
+          "tokens": 10413,
+          "model": "gpt-5.1-codex",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772815120585,
+          "cost": 0.4889,
+          "tokens": 44690,
+          "model": "gpt-5.1-codex",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772816482103,
+          "cost": 0.4379,
+          "tokens": 40444,
+          "model": "gpt-5.1-codex",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772851722006,
+          "cost": 1.1024,
+          "tokens": 105209,
+          "model": "gpt-5.1-codex",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        }
+      ]
+    },
+    "google": {
+      "today": 0,
+      "week": 0,
+      "month": 0.03,
+      "breakdown": [
+        {
+          "timestamp": 1772967457480,
+          "cost": 0.0089,
+          "tokens": 113748,
+          "model": "gemini-3-pro-preview",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1772967672793,
+          "cost": 0.0145,
+          "tokens": 179899,
+          "model": "gemini-3-pro-preview",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        },
+        {
+          "timestamp": 1773054069094,
+          "cost": 0.0058,
+          "tokens": 66528,
+          "model": "gemini-3-pro-preview",
+          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
+        }
+      ]
+    }
+  },
+  "costLastUpdated": "2026-03-24T12:42:31.597Z"
 }
