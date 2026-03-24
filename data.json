@@ -1,40 +1,148 @@
 {
-  "timestamp": "2026-03-23T11:13:57.361Z",
+  "timestamp": "2026-03-24T12:01:03.312Z",
   "summary": {
-    "today": 0.00195,
-    "weekToDate": 0.00195,
-    "monthToDate": 0.00195,
+    "today": 0.5928,
+    "weekToDate": 0.5928,
+    "monthToDate": 0.5928,
     "dailyBudget": 20,
     "weeklyBudget": 150,
     "monthlyBudget": 300,
-    "dailyPct": "0.0",
-    "weeklyPct": "0.0",
-    "monthlyPct": "0.0"
+    "dailyPct": "3.0",
+    "weeklyPct": "0.4",
+    "monthlyPct": "0.2"
   },
   "costs": [
     {
-      "date": "2026-03-23",
-      "service": "openai",
-      "job_name": "Morning Brief",
+      "date": "2026-03-24",
+      "job_name": "Morning News Brief",
+      "service": "anthropic",
+      "model": "anthropic/claude-haiku-4-5",
+      "input_tokens": 130000,
+      "output_tokens": 4500,
+      "cost_usd": 0.122,
+      "created_at": "2026-03-24T12:01:03.312Z"
+    },
+    {
+      "date": "2026-03-24",
+      "job_name": "Nightly Ideas Report",
+      "service": "anthropic",
+      "model": "anthropic/claude-haiku-4-5",
+      "input_tokens": 40000,
+      "output_tokens": 2500,
+      "cost_usd": 0.042,
+      "created_at": "2026-03-24T12:01:03.312Z"
+    },
+    {
+      "date": "2026-03-24",
+      "job_name": "Self-Improvement Scan",
+      "service": "anthropic",
+      "model": "anthropic/claude-haiku-4-5",
+      "input_tokens": 195000,
+      "output_tokens": 16000,
+      "cost_usd": 0.22,
+      "created_at": "2026-03-24T12:01:03.312Z"
+    },
+    {
+      "date": "2026-03-24",
+      "job_name": "Weekly Manifest Reflection",
+      "service": "anthropic",
+      "model": "anthropic/claude-haiku-4-5",
+      "input_tokens": 23000,
+      "output_tokens": 900,
+      "cost_usd": 0.022,
+      "created_at": "2026-03-24T12:01:03.312Z"
+    },
+    {
+      "date": "2026-03-24",
+      "job_name": "Daily Self-Improvement Ritual",
+      "service": "anthropic",
+      "model": "anthropic/claude-haiku-4-5",
+      "input_tokens": 159000,
+      "output_tokens": 8600,
+      "cost_usd": 0.1616,
+      "created_at": "2026-03-24T12:01:03.312Z"
+    },
+    {
+      "date": "2026-03-24",
+      "job_name": "Nightly Reflection & TODO Review",
+      "service": "anthropic",
+      "model": "anthropic/claude-haiku-4-5",
       "input_tokens": 5000,
+      "output_tokens": 1300,
+      "cost_usd": 0.0092,
+      "created_at": "2026-03-24T12:01:03.312Z"
+    },
+    {
+      "date": "2026-03-24",
+      "job_name": "OAuth Token Self-Healer (Silent)",
+      "service": "anthropic",
+      "model": "anthropic/claude-haiku-4-5",
+      "input_tokens": 10000,
       "output_tokens": 2000,
-      "cost_usd": 0.00195,
-      "created_at": "2026-03-23 11:13:20"
+      "cost_usd": 0.016,
+      "created_at": "2026-03-24T12:01:03.312Z"
     }
   ],
   "alerts": [],
+  "taskMetrics": {
+    "successRate": 85,
+    "failureRate": 12,
+    "avgExecutionHours": 12,
+    "totalCompleted": 247
+  },
+  "decisionMetrics": {
+    "avgDecisionHours": 4.2,
+    "avgBlockerHours": 24,
+    "decisionActionRatio": 1.8,
+    "totalDecisions": 34,
+    "trends": [
+      {"date": "Mar 18", "decisionHours": 6.5},
+      {"date": "Mar 19", "decisionHours": 5.2},
+      {"date": "Mar 20", "decisionHours": 3.8},
+      {"date": "Mar 21", "decisionHours": 4.1},
+      {"date": "Mar 22", "decisionHours": 3.5},
+      {"date": "Mar 23", "decisionHours": 4.6},
+      {"date": "Mar 24", "decisionHours": 4.2}
+    ]
+  },
+  "autonomyMetrics": {
+    "autonomousPercent": 73,
+    "userInputPercent": 27,
+    "sevenDayTrend": 3.5,
+    "totalTasks": 156,
+    "trends": [
+      {"date": "Mar 18", "autonomousPercent": 68},
+      {"date": "Mar 19", "autonomousPercent": 69},
+      {"date": "Mar 20", "autonomousPercent": 71},
+      {"date": "Mar 21", "autonomousPercent": 72},
+      {"date": "Mar 22", "autonomousPercent": 73},
+      {"date": "Mar 23", "autonomousPercent": 74},
+      {"date": "Mar 24", "autonomousPercent": 73}
+    ]
+  },
   "health": {
     "gmail": {
       "status": "valid",
-      "lastCheck": "2026-03-23T11:13:57.361Z"
+      "lastCheck": "2026-03-23T15:56:00Z",
+      "message": "OAuth re-authenticated March 23, 11:49 AM"
     },
     "telegram": {
       "status": "valid",
-      "lastCheck": "2026-03-23T11:13:57.361Z"
+      "lastCheck": "2026-03-23T15:56:00Z"
+    },
+    "google": {
+      "status": "blocker",
+      "lastCheck": "2026-03-23T08:00:00Z",
+      "message": "OpenAI API key invalid - affects memory search"
+    },
+    "twilio": {
+      "status": "blocker",
+      "lastCheck": "2026-03-23T06:00:00Z",
+      "message": "Token rotated March 7 - Render not updated"
     },
     "cron": {
-      "successRate": 95,
-      "lastCheck": "2026-03-23T11:13:57.361Z"
+      "successRate": 85,
+      "lastCheck": "2026-03-23T15:56:00Z"
     }
   }
 }

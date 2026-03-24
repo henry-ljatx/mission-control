@@ -247,6 +247,14 @@
             color: #888;
         }
 
+        .status-green {
+            color: #44ff44 !important;
+        }
+
+        .status-red {
+            color: #ff4444 !important;
+        }
+
         .alert-banner {
             background: #ff4444;
             color: white;
@@ -413,6 +421,81 @@
                     </div>
                 </div>
             </div>
+
+            <!-- TASK EXECUTION METRICS -->
+            <div class="widget">
+                <div class="widget-title">⚡ Task Execution Metrics</div>
+                <div class="metrics-grid">
+                    <div class="metric-box">
+                        <div class="metric-value status-green" id="taskSuccessRate">--</div>
+                        <div class="metric-label">Success Rate</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value status-red" id="taskFailureRate">--</div>
+                        <div class="metric-label">Failure Rate</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value" id="taskAvgTime">--</div>
+                        <div class="metric-label">Avg Execution</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value" id="taskTotalCompleted">--</div>
+                        <div class="metric-label">Total Completed</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DECISION VELOCITY -->
+            <div class="widget">
+                <div class="widget-title">🎯 Decision Velocity</div>
+                <div class="chart-container small">
+                    <canvas id="decisionVelocityChart"></canvas>
+                </div>
+                <div class="metrics-grid">
+                    <div class="metric-box">
+                        <div class="metric-value" id="avgDecisionTime">--</div>
+                        <div class="metric-label">Avg Decision Time</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value" id="avgBlockerDuration">--</div>
+                        <div class="metric-label">Avg Blocker Duration</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value" id="decisionActionRatio">--</div>
+                        <div class="metric-label">Decision to Action</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value" id="totalDecisions">--</div>
+                        <div class="metric-label">Decisions Made</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AUTONOMY SCORING -->
+            <div class="widget">
+                <div class="widget-title">🤖 Autonomy Scoring</div>
+                <div class="chart-container small">
+                    <canvas id="autonomyChart"></canvas>
+                </div>
+                <div class="metrics-grid">
+                    <div class="metric-box">
+                        <div class="metric-value status-green" id="autonomousPercent">--</div>
+                        <div class="metric-label">Autonomous Tasks</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value" id="userInputPercent">--</div>
+                        <div class="metric-label">Blocked Tasks</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value" id="autonomyTrendLine">--</div>
+                        <div class="metric-label">7-Day Trend</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value" id="autonomyTaskCount">--</div>
+                        <div class="metric-label">Total Tasks</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="refresh-info">
@@ -422,7 +505,7 @@
 
     <script>
         // Global state
-        let serviceChart, jobChart, trendChart;
+        let serviceChart, jobChart, trendChart, decisionVelocityChart, autonomyChart;
         let costData = {};
 
         /**
@@ -447,6 +530,9 @@
             updateCostSummary();
             updateCharts();
             updateHealthStatus();
+            updateTaskExecutionMetrics();
+            updateDecisionVelocity();
+            updateAutonomyScoring();
             updateTimestamps();
         }
 
@@ -631,7 +717,166 @@
          */
         function updateHealthStatus() {
             const health = costData.health || {};
-            // In a real implementation, would fetch actual health data
+            const healthHtml = `
+                <div class="status-item">
+                    <span class="status-label">Gmail OAuth</span>
+                    <span class="status-badge ${health.gmail?.status === 'valid' ? 'valid' : 'blocker'}">
+                        ${health.gmail?.status === 'valid' ? '✓ Valid' : '✗ Expired'}
+                    </span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Telegram Bot Token</span>
+                    <span class="status-badge ${health.telegram?.status === 'valid' ? 'valid' : 'blocker'}">
+                        ${health.telegram?.status === 'valid' ? '✓ Valid' : '✗ Missing'}
+                    </span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Google Gemini API</span>
+                    <span class="status-badge ${health.google?.status === 'valid' ? 'valid' : 'blocker'}">
+                        ${health.google?.status === 'valid' ? '✓ Valid' : '✗ Expired'}
+                    </span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Twilio Credentials</span>
+                    <span class="status-badge ${health.twilio?.status === 'valid' ? 'valid' : 'blocker'}">
+                        ${health.twilio?.status === 'valid' ? '✓ Valid' : '✗ Outdated'}
+                    </span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Cron Health</span>
+                    <span class="status-badge ${health.cron?.successRate >= 90 ? 'valid' : 'blocker'}">
+                        ${health.cron?.successRate || '--'}% Success
+                    </span>
+                </div>
+            `;
+            document.getElementById('healthStatus').innerHTML = healthHtml;
+        }
+
+        /**
+         * Update Task Execution Metrics
+         */
+        function updateTaskExecutionMetrics() {
+            const metrics = costData.taskMetrics || {};
+            document.getElementById('taskSuccessRate').textContent = (metrics.successRate || 0) + '%';
+            document.getElementById('taskFailureRate').textContent = (metrics.failureRate || 0) + '%';
+            document.getElementById('taskAvgTime').textContent = (metrics.avgExecutionHours || 0) + 'h';
+            document.getElementById('taskTotalCompleted').textContent = metrics.totalCompleted || 0;
+        }
+
+        /**
+         * Update Decision Velocity
+         */
+        function updateDecisionVelocity() {
+            const metrics = costData.decisionMetrics || {};
+            
+            document.getElementById('avgDecisionTime').textContent = (metrics.avgDecisionHours || 0) + 'h';
+            document.getElementById('avgBlockerDuration').textContent = (metrics.avgBlockerHours || 0) + 'h';
+            document.getElementById('decisionActionRatio').textContent = (metrics.decisionActionRatio || 0).toFixed(2);
+            document.getElementById('totalDecisions').textContent = metrics.totalDecisions || 0;
+
+            // Decision Velocity Chart
+            const trends = metrics.trends || [];
+            if (decisionVelocityChart) decisionVelocityChart.destroy();
+            
+            const labels = trends.map(t => t.date);
+            const decisionTimes = trends.map(t => t.decisionHours);
+            
+            const dvCtx = document.getElementById('decisionVelocityChart').getContext('2d');
+            decisionVelocityChart = new Chart(dvCtx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Decision Time (hours)',
+                        data: decisionTimes,
+                        borderColor: '#FFA07A',
+                        backgroundColor: 'rgba(255, 160, 122, 0.1)',
+                        tension: 0.4,
+                        fill: true,
+                        pointRadius: 3,
+                        pointBackgroundColor: '#FFA07A',
+                        pointBorderColor: '#1a1f26',
+                    }],
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            labels: { color: '#e0e0e0', padding: 10, font: { size: 11 } },
+                        },
+                    },
+                    scales: {
+                        x: {
+                            ticks: { color: '#888', font: { size: 10 } },
+                            grid: { color: '#2a2f36' },
+                        },
+                        y: {
+                            ticks: { color: '#888', font: { size: 10 } },
+                            grid: { color: '#2a2f36' },
+                        },
+                    },
+                },
+            });
+        }
+
+        /**
+         * Update Autonomy Scoring
+         */
+        function updateAutonomyScoring() {
+            const metrics = costData.autonomyMetrics || {};
+            
+            document.getElementById('autonomousPercent').textContent = (metrics.autonomousPercent || 0) + '%';
+            document.getElementById('userInputPercent').textContent = (metrics.userInputPercent || 0) + '%';
+            document.getElementById('autonomyTrendLine').textContent = (metrics.sevenDayTrend >= 0 ? '↑' : '↓') + ' ' + Math.abs(metrics.sevenDayTrend) + '%';
+            document.getElementById('autonomyTaskCount').textContent = metrics.totalTasks || 0;
+
+            // Autonomy Chart (Progress + Trend)
+            const trends = metrics.trends || [];
+            if (autonomyChart) autonomyChart.destroy();
+            
+            const labels = trends.map(t => t.date);
+            const autonomyValues = trends.map(t => t.autonomousPercent);
+            
+            const acCtx = document.getElementById('autonomyChart').getContext('2d');
+            autonomyChart = new Chart(acCtx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Autonomy %',
+                        data: autonomyValues,
+                        borderColor: '#44ff44',
+                        backgroundColor: 'rgba(68, 255, 68, 0.1)',
+                        tension: 0.4,
+                        fill: true,
+                        pointRadius: 3,
+                        pointBackgroundColor: '#44ff44',
+                        pointBorderColor: '#1a1f26',
+                    }],
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            labels: { color: '#e0e0e0', padding: 10, font: { size: 11 } },
+                        },
+                    },
+                    scales: {
+                        x: {
+                            ticks: { color: '#888', font: { size: 10 } },
+                            grid: { color: '#2a2f36' },
+                        },
+                        y: {
+                            ticks: { color: '#888', font: { size: 10 }, callback: (v) => v + '%' },
+                            grid: { color: '#2a2f36' },
+                            max: 100,
+                            min: 0,
+                        },
+                    },
+                },
+            });
         }
 
         /**
