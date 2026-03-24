@@ -309,15 +309,21 @@ function getDateRange(ts) {
 
   const isToday = dateOnly.getTime() === today.getTime();
 
-  const dayOfWeek = today.getDay();
-  const weekStart = new Date(today);
-  weekStart.setDate(today.getDate() - dayOfWeek);
-  weekStart.setHours(0, 0, 0, 0);
+  // FIXED: Past 7 days (not calendar week)
+  // Past 7 days = today + 6 days back
+  const sevenDaysAgo = new Date(today);
+  sevenDaysAgo.setDate(today.getDate() - 6); // 6 days back for 7-day window
+  sevenDaysAgo.setHours(0, 0, 0, 0);
 
-  const isThisWeek = dateOnly.getTime() >= weekStart.getTime() && dateOnly.getTime() <= today.getTime();
+  const isThisWeek = dateOnly.getTime() >= sevenDaysAgo.getTime() && dateOnly.getTime() <= today.getTime();
 
-  const monthStart = new Date(today.getFullYear(), today.getMonth(), 1);
-  const isThisMonth = dateOnly.getTime() >= monthStart.getTime() && dateOnly.getTime() <= today.getTime();
+  // FIXED: Past 30 days (not calendar month)
+  // Past 30 days = today + 29 days back
+  const thirtyDaysAgo = new Date(today);
+  thirtyDaysAgo.setDate(today.getDate() - 29); // 29 days back for 30-day window
+  thirtyDaysAgo.setHours(0, 0, 0, 0);
+
+  const isThisMonth = dateOnly.getTime() >= thirtyDaysAgo.getTime() && dateOnly.getTime() <= today.getTime();
 
   return { isToday, isThisWeek, isThisMonth, date, dateStr: dateOnly.toISOString().split('T')[0] };
 }

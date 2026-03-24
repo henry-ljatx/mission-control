@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-03-24T18:26:11.682Z",
+  "timestamp": "2026-03-24T18:55:26.774Z",
   "summary": {
-    "today": 0.89,
-    "weekToDate": 1.33,
-    "monthToDate": 4.7,
+    "today": 2.14,
+    "weekToDate": 3,
+    "monthToDate": 5.94,
     "dailyBudget": 20,
     "weeklyBudget": 150,
     "monthlyBudget": 300,
-    "dailyPct": "4.5",
-    "weeklyPct": "0.9",
-    "monthlyPct": "1.6",
+    "dailyPct": "10.7",
+    "weeklyPct": "2.0",
+    "monthlyPct": "2.0",
     "dataQuality": {
-      "cronReal": 170,
-      "subagentEstimated": 1,
+      "cronReal": 171,
+      "subagentEstimated": 3,
       "sessionReal": 10,
-      "totalEntries": 181
+      "totalEntries": 184
     }
   },
   "costs": [
@@ -28,7 +28,7 @@
       "totalTokens": 3418,
       "cost": 0.0512,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-08",
@@ -40,7 +40,7 @@
       "totalTokens": 2189,
       "cost": 0.0328,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-09",
@@ -52,7 +52,7 @@
       "totalTokens": 1692,
       "cost": 0.0253,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-10",
@@ -64,7 +64,7 @@
       "totalTokens": 1868,
       "cost": 0.0279,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-11",
@@ -76,7 +76,7 @@
       "totalTokens": 1958,
       "cost": 0.0293,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-12",
@@ -88,7 +88,7 @@
       "totalTokens": 2068,
       "cost": 0.0082,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-13",
@@ -100,7 +100,7 @@
       "totalTokens": 1142,
       "cost": 0.0045,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-14",
@@ -112,7 +112,7 @@
       "totalTokens": 2054,
       "cost": 0.0081,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-15",
@@ -124,7 +124,7 @@
       "totalTokens": 2283,
       "cost": 0.0091,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-16",
@@ -136,7 +136,7 @@
       "totalTokens": 3035,
       "cost": 0.012,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-21",
@@ -148,7 +148,7 @@
       "totalTokens": 2292,
       "cost": 0.0091,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-22",
@@ -160,7 +160,7 @@
       "totalTokens": 2338,
       "cost": 0.0092,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-01",
@@ -172,7 +172,7 @@
       "totalTokens": 1522,
       "cost": 0.0909,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-02",
@@ -184,7 +184,7 @@
       "totalTokens": 1867,
       "cost": 0.1116,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-08",
@@ -196,7 +196,7 @@
       "totalTokens": 1140,
       "cost": 0.017,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-09",
@@ -208,7 +208,7 @@
       "totalTokens": 1161,
       "cost": 0.0174,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-10",
@@ -220,7 +220,7 @@
       "totalTokens": 1461,
       "cost": 0.0218,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-11",
@@ -232,7 +232,7 @@
       "totalTokens": 1283,
       "cost": 0.0192,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-12",
@@ -244,7 +244,7 @@
       "totalTokens": 1607,
       "cost": 0.024,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-13",
@@ -256,7 +256,7 @@
       "totalTokens": 1182,
       "cost": 0.0177,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-14",
@@ -268,7 +268,7 @@
       "totalTokens": 1182,
       "cost": 0.0177,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-17",
@@ -280,7 +280,7 @@
       "totalTokens": 994,
       "cost": 0.0149,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-21",
@@ -292,7 +292,7 @@
       "totalTokens": 1769,
       "cost": 0.0264,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-21",
@@ -304,7 +304,7 @@
       "totalTokens": 1273,
       "cost": 0.019,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-22",
@@ -316,7 +316,7 @@
       "totalTokens": 1352,
       "cost": 0.0202,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -328,7 +328,7 @@
       "totalTokens": 3881,
       "cost": 0.0151,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -340,7 +340,7 @@
       "totalTokens": 4736,
       "cost": 0.0185,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -352,7 +352,7 @@
       "totalTokens": 1638,
       "cost": 0.0065,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -364,7 +364,7 @@
       "totalTokens": 1868,
       "cost": 0.0074,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -376,7 +376,7 @@
       "totalTokens": 2605,
       "cost": 0.0102,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -388,7 +388,7 @@
       "totalTokens": 1445,
       "cost": 0.0057,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -400,7 +400,7 @@
       "totalTokens": 1519,
       "cost": 0.006,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -412,7 +412,7 @@
       "totalTokens": 1525,
       "cost": 0.006,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -424,7 +424,7 @@
       "totalTokens": 3655,
       "cost": 0.0142,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -436,7 +436,7 @@
       "totalTokens": 2045,
       "cost": 0.008,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -448,7 +448,7 @@
       "totalTokens": 1742,
       "cost": 0.0068,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -460,7 +460,7 @@
       "totalTokens": 3191,
       "cost": 0.0124,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -472,7 +472,7 @@
       "totalTokens": 2188,
       "cost": 0.0085,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -484,7 +484,7 @@
       "totalTokens": 2363,
       "cost": 0.0092,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -496,7 +496,7 @@
       "totalTokens": 1000,
       "cost": 0.0039,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -508,7 +508,7 @@
       "totalTokens": 3853,
       "cost": 0.0149,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -520,7 +520,7 @@
       "totalTokens": 1271,
       "cost": 0.005,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -532,7 +532,7 @@
       "totalTokens": 1211,
       "cost": 0.0048,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -544,7 +544,7 @@
       "totalTokens": 1582,
       "cost": 0.0061,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-23",
@@ -556,7 +556,7 @@
       "totalTokens": 1654,
       "cost": 0.0065,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -568,7 +568,7 @@
       "totalTokens": 1554,
       "cost": 0.0061,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -580,7 +580,7 @@
       "totalTokens": 2353,
       "cost": 0.0092,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -592,7 +592,7 @@
       "totalTokens": 1939,
       "cost": 0.0076,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -604,7 +604,7 @@
       "totalTokens": 2139,
       "cost": 0.0084,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -616,7 +616,7 @@
       "totalTokens": 1909,
       "cost": 0.0074,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -628,7 +628,7 @@
       "totalTokens": 1512,
       "cost": 0.006,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -640,7 +640,7 @@
       "totalTokens": 2696,
       "cost": 0.0106,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -652,7 +652,7 @@
       "totalTokens": 2487,
       "cost": 0.0097,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -664,7 +664,7 @@
       "totalTokens": 1925,
       "cost": 0.0075,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -676,7 +676,7 @@
       "totalTokens": 1648,
       "cost": 0.0065,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.773Z"
     },
     {
       "date": "2026-03-24",
@@ -688,7 +688,7 @@
       "totalTokens": 1063,
       "cost": 0.0042,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.681Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -700,7 +700,7 @@
       "totalTokens": 3479,
       "cost": 0.0136,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -712,7 +712,7 @@
       "totalTokens": 2027,
       "cost": 0.0079,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -724,7 +724,7 @@
       "totalTokens": 1512,
       "cost": 0.0059,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -736,7 +736,7 @@
       "totalTokens": 1339,
       "cost": 0.0053,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -748,7 +748,7 @@
       "totalTokens": 1609,
       "cost": 0.0064,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -760,7 +760,7 @@
       "totalTokens": 1288,
       "cost": 0.0051,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -772,7 +772,7 @@
       "totalTokens": 3010,
       "cost": 0.0117,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -784,7 +784,7 @@
       "totalTokens": 2152,
       "cost": 0.0084,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -796,7 +796,7 @@
       "totalTokens": 3905,
       "cost": 0.015,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -808,7 +808,7 @@
       "totalTokens": 1663,
       "cost": 0.0065,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -820,7 +820,7 @@
       "totalTokens": 1172,
       "cost": 0.0046,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -832,7 +832,7 @@
       "totalTokens": 1215,
       "cost": 0.0047,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -844,7 +844,7 @@
       "totalTokens": 1708,
       "cost": 0.0066,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -856,7 +856,7 @@
       "totalTokens": 1940,
       "cost": 0.0075,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -868,7 +868,7 @@
       "totalTokens": 1445,
       "cost": 0.0057,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -880,7 +880,19 @@
       "totalTokens": 1935,
       "cost": 0.0076,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
+    },
+    {
+      "date": "2026-03-24",
+      "source": "cron",
+      "provider": "anthropic",
+      "model": "anthropic/claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 1383,
+      "totalTokens": 1406,
+      "cost": 0.0056,
+      "estimatedTokens": false,
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-08",
@@ -892,7 +904,7 @@
       "totalTokens": 950,
       "cost": 0.0037,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-09",
@@ -904,7 +916,7 @@
       "totalTokens": 1181,
       "cost": 0.0046,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-10",
@@ -916,7 +928,7 @@
       "totalTokens": 953,
       "cost": 0.0037,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-11",
@@ -928,7 +940,7 @@
       "totalTokens": 1058,
       "cost": 0.0041,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-12",
@@ -940,7 +952,7 @@
       "totalTokens": 981,
       "cost": 0.0038,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-13",
@@ -952,7 +964,7 @@
       "totalTokens": 955,
       "cost": 0.0037,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-14",
@@ -964,7 +976,7 @@
       "totalTokens": 1274,
       "cost": 0.005,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-15",
@@ -976,7 +988,7 @@
       "totalTokens": 834,
       "cost": 0.0033,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-16",
@@ -988,7 +1000,7 @@
       "totalTokens": 1112,
       "cost": 0.0043,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-17",
@@ -1000,7 +1012,7 @@
       "totalTokens": 885,
       "cost": 0.0035,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-21",
@@ -1012,7 +1024,7 @@
       "totalTokens": 1391,
       "cost": 0.0055,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-21",
@@ -1024,7 +1036,7 @@
       "totalTokens": 1184,
       "cost": 0.0047,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-22",
@@ -1036,7 +1048,7 @@
       "totalTokens": 1168,
       "cost": 0.0046,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1048,7 +1060,7 @@
       "totalTokens": 1046,
       "cost": 0.0041,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-15",
@@ -1060,7 +1072,7 @@
       "totalTokens": 4273,
       "cost": 0.0168,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-16",
@@ -1072,7 +1084,7 @@
       "totalTokens": 3523,
       "cost": 0.0138,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-17",
@@ -1084,7 +1096,7 @@
       "totalTokens": 2696,
       "cost": 0.161,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-22",
@@ -1096,7 +1108,7 @@
       "totalTokens": 8419,
       "cost": 0.0331,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1108,7 +1120,7 @@
       "totalTokens": 8782,
       "cost": 0.0346,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1120,7 +1132,7 @@
       "totalTokens": 1945,
       "cost": 0.0077,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-01",
@@ -1132,7 +1144,7 @@
       "totalTokens": 3395,
       "cost": 0.0134,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-02",
@@ -1144,7 +1156,7 @@
       "totalTokens": 4583,
       "cost": 0.0181,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-03",
@@ -1156,7 +1168,7 @@
       "totalTokens": 4856,
       "cost": 0.019,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-03",
@@ -1168,7 +1180,7 @@
       "totalTokens": 17223,
       "cost": 0.0531,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-03",
@@ -1180,7 +1192,7 @@
       "totalTokens": 4653,
       "cost": 0.0184,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-04",
@@ -1192,7 +1204,7 @@
       "totalTokens": 7042,
       "cost": 0.0278,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-05",
@@ -1204,7 +1216,7 @@
       "totalTokens": 3471,
       "cost": 0.0137,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-05",
@@ -1216,7 +1228,7 @@
       "totalTokens": 5561,
       "cost": 0.0219,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-06",
@@ -1228,7 +1240,7 @@
       "totalTokens": 79722,
       "cost": 0.2878,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-06",
@@ -1240,7 +1252,7 @@
       "totalTokens": 10413,
       "cost": 0.0331,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-06",
@@ -1252,7 +1264,7 @@
       "totalTokens": 44690,
       "cost": 0.153,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-06",
@@ -1264,7 +1276,7 @@
       "totalTokens": 40444,
       "cost": 0.1364,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-06",
@@ -1276,7 +1288,7 @@
       "totalTokens": 105209,
       "cost": 0.3383,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-06",
@@ -1288,7 +1300,7 @@
       "totalTokens": 4696,
       "cost": 0.2813,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-07",
@@ -1300,7 +1312,7 @@
       "totalTokens": 3854,
       "cost": 0.2309,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-08",
@@ -1312,7 +1324,7 @@
       "totalTokens": 113748,
       "cost": 0.0089,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-08",
@@ -1324,7 +1336,7 @@
       "totalTokens": 179899,
       "cost": 0.0145,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-09",
@@ -1336,7 +1348,7 @@
       "totalTokens": 66528,
       "cost": 0.0058,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-10",
@@ -1348,7 +1360,7 @@
       "totalTokens": 4392,
       "cost": 0.0657,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-11",
@@ -1360,7 +1372,7 @@
       "totalTokens": 4937,
       "cost": 0.074,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-12",
@@ -1372,7 +1384,7 @@
       "totalTokens": 6476,
       "cost": 0.097,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-13",
@@ -1384,7 +1396,7 @@
       "totalTokens": 4292,
       "cost": 0.017,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-14",
@@ -1396,7 +1408,7 @@
       "totalTokens": 4445,
       "cost": 0.0175,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-18",
@@ -1408,7 +1420,7 @@
       "totalTokens": 3023,
       "cost": 0.181,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-21",
@@ -1420,7 +1432,7 @@
       "totalTokens": 5946,
       "cost": 0.0235,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-22",
@@ -1432,7 +1444,7 @@
       "totalTokens": 5108,
       "cost": 0.0201,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1444,7 +1456,7 @@
       "totalTokens": 9280,
       "cost": 0.0367,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1456,7 +1468,7 @@
       "totalTokens": 317,
       "cost": 0.0012,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1468,7 +1480,7 @@
       "totalTokens": 365,
       "cost": 0.0014,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1480,7 +1492,7 @@
       "totalTokens": 922,
       "cost": 0.0036,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1492,7 +1504,7 @@
       "totalTokens": 1100,
       "cost": 0.0043,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1504,7 +1516,7 @@
       "totalTokens": 331,
       "cost": 0.0013,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1516,7 +1528,7 @@
       "totalTokens": 986,
       "cost": 0.0038,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1528,7 +1540,7 @@
       "totalTokens": 910,
       "cost": 0.0035,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1540,7 +1552,7 @@
       "totalTokens": 362,
       "cost": 0.0014,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1552,7 +1564,7 @@
       "totalTokens": 323,
       "cost": 0.0012,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1564,7 +1576,7 @@
       "totalTokens": 899,
       "cost": 0.0035,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1576,7 +1588,7 @@
       "totalTokens": 376,
       "cost": 0.0014,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1588,7 +1600,7 @@
       "totalTokens": 780,
       "cost": 0.003,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1600,7 +1612,7 @@
       "totalTokens": 863,
       "cost": 0.0033,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1612,7 +1624,7 @@
       "totalTokens": 918,
       "cost": 0.0036,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1624,7 +1636,7 @@
       "totalTokens": 1209,
       "cost": 0.0047,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1636,7 +1648,7 @@
       "totalTokens": 899,
       "cost": 0.0035,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1648,7 +1660,7 @@
       "totalTokens": 318,
       "cost": 0.0012,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1660,7 +1672,7 @@
       "totalTokens": 353,
       "cost": 0.0013,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1672,7 +1684,7 @@
       "totalTokens": 1168,
       "cost": 0.0046,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1684,7 +1696,7 @@
       "totalTokens": 372,
       "cost": 0.0014,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1696,7 +1708,7 @@
       "totalTokens": 356,
       "cost": 0.0014,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1708,7 +1720,7 @@
       "totalTokens": 424,
       "cost": 0.0016,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1720,7 +1732,7 @@
       "totalTokens": 436,
       "cost": 0.0017,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-08",
@@ -1732,7 +1744,7 @@
       "totalTokens": 1257,
       "cost": 0.0048,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-09",
@@ -1744,7 +1756,7 @@
       "totalTokens": 1115,
       "cost": 0.0043,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-10",
@@ -1756,7 +1768,7 @@
       "totalTokens": 1631,
       "cost": 0.0062,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-11",
@@ -1768,7 +1780,7 @@
       "totalTokens": 1094,
       "cost": 0.0042,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-12",
@@ -1780,7 +1792,7 @@
       "totalTokens": 1218,
       "cost": 0.0046,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-13",
@@ -1792,7 +1804,7 @@
       "totalTokens": 1073,
       "cost": 0.0041,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-14",
@@ -1804,7 +1816,7 @@
       "totalTokens": 661,
       "cost": 0.0025,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-15",
@@ -1816,7 +1828,7 @@
       "totalTokens": 2287,
       "cost": 0.0089,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-16",
@@ -1828,7 +1840,7 @@
       "totalTokens": 1769,
       "cost": 0.0068,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-17",
@@ -1840,7 +1852,7 @@
       "totalTokens": 1343,
       "cost": 0.0052,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-18",
@@ -1852,7 +1864,7 @@
       "totalTokens": 3728,
       "cost": 0.0145,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-21",
@@ -1864,7 +1876,7 @@
       "totalTokens": 2452,
       "cost": 0.0095,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-22",
@@ -1876,7 +1888,7 @@
       "totalTokens": 1372,
       "cost": 0.0053,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -1888,7 +1900,7 @@
       "totalTokens": 2500,
       "cost": 0.0095,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -1900,7 +1912,7 @@
       "totalTokens": 1222,
       "cost": 0.0047,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-07",
@@ -1912,7 +1924,7 @@
       "totalTokens": 637,
       "cost": 0.0025,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-13",
@@ -1924,7 +1936,7 @@
       "totalTokens": 2842,
       "cost": 0.0113,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-13",
@@ -1936,7 +1948,7 @@
       "totalTokens": 3196,
       "cost": 0.0127,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-14",
@@ -1948,7 +1960,7 @@
       "totalTokens": 2971,
       "cost": 0.0117,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-15",
@@ -1960,7 +1972,7 @@
       "totalTokens": 4077,
       "cost": 0.0161,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-16",
@@ -1972,7 +1984,7 @@
       "totalTokens": 20587,
       "cost": 0.0817,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-17",
@@ -1984,7 +1996,7 @@
       "totalTokens": 4095,
       "cost": 0.016,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-21",
@@ -1996,7 +2008,7 @@
       "totalTokens": 16210,
       "cost": 0.0643,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-21",
@@ -2008,7 +2020,7 @@
       "totalTokens": 16351,
       "cost": 0.0648,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-22",
@@ -2020,7 +2032,7 @@
       "totalTokens": 3469,
       "cost": 0.0136,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -2032,7 +2044,7 @@
       "totalTokens": 3979,
       "cost": 0.0158,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-16",
@@ -2044,7 +2056,7 @@
       "totalTokens": 909,
       "cost": 0.0036,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-21",
@@ -2056,7 +2068,7 @@
       "totalTokens": 895,
       "cost": 0.0035,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -2068,19 +2080,31 @@
       "totalTokens": 110000,
       "cost": 0.6,
       "estimatedTokens": true,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
-      "date": "2026-03-23",
-      "source": "session",
-      "provider": "anthropic",
-      "model": "anthropic/claude-haiku-4-5",
-      "inputTokens": 146,
-      "outputTokens": 3707,
-      "totalTokens": 3853,
-      "cost": 0.0149,
-      "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "date": "2026-03-24",
+      "source": "subagent",
+      "provider": "openai",
+      "model": "openai/gpt-5.1-codex",
+      "inputTokens": 80000,
+      "outputTokens": 30000,
+      "totalTokens": 110000,
+      "cost": 0.6,
+      "estimatedTokens": true,
+      "created_at": "2026-03-24T18:55:26.774Z"
+    },
+    {
+      "date": "2026-03-24",
+      "source": "subagent",
+      "provider": "openai",
+      "model": "openai/gpt-5.1-codex",
+      "inputTokens": 80000,
+      "outputTokens": 30000,
+      "totalTokens": 110000,
+      "cost": 0.6,
+      "estimatedTokens": true,
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -2092,7 +2116,19 @@
       "totalTokens": 424,
       "cost": 0.0001,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
+    },
+    {
+      "date": "2026-03-24",
+      "source": "session",
+      "provider": "openai",
+      "model": "openai/gpt-5.1-codex",
+      "inputTokens": 162,
+      "outputTokens": 4010,
+      "totalTokens": 4172,
+      "cost": 0.0486,
+      "estimatedTokens": false,
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -2104,7 +2140,7 @@
       "totalTokens": 2139,
       "cost": 0.0084,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -2116,7 +2152,7 @@
       "totalTokens": 2363,
       "cost": 0.0092,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -2128,7 +2164,7 @@
       "totalTokens": 3191,
       "cost": 0.0124,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -2140,7 +2176,7 @@
       "totalTokens": 1648,
       "cost": 0.0065,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -2152,7 +2188,7 @@
       "totalTokens": 1939,
       "cost": 0.0076,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -2164,7 +2200,7 @@
       "totalTokens": 899,
       "cost": 0.0035,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-24",
@@ -2176,7 +2212,7 @@
       "totalTokens": 2152,
       "cost": 0.0084,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     },
     {
       "date": "2026-03-23",
@@ -2188,14 +2224,14 @@
       "totalTokens": 323,
       "cost": 0.0012,
       "estimatedTokens": false,
-      "created_at": "2026-03-24T18:26:11.682Z"
+      "created_at": "2026-03-24T18:55:26.774Z"
     }
   ],
   "costByProvider": {
     "anthropic": {
-      "today": 0.28520000000000006,
-      "week": 0.7305999999999995,
-      "month": 3.071199999999998,
+      "today": 0.29080000000000006,
+      "week": 1.1470999999999998,
+      "month": 3.0618999999999983,
       "breakdown": [
         {
           "timestamp": 1772938881285,
@@ -2698,6 +2734,13 @@
           "timestamp": 1774375231666,
           "cost": 0.0076,
           "tokens": 1935,
+          "model": "anthropic/claude-haiku-4-5",
+          "source": "cron"
+        },
+        {
+          "timestamp": 1774377022537,
+          "cost": 0.0056,
+          "tokens": 1406,
           "model": "anthropic/claude-haiku-4-5",
           "source": "cron"
         },
@@ -3325,13 +3368,6 @@
           "source": "cron"
         },
         {
-          "timestamp": 1774319442808,
-          "cost": 0.0149,
-          "tokens": 3853,
-          "model": "anthropic/claude-haiku-4-5",
-          "source": "session"
-        },
-        {
           "timestamp": 1774333825732,
           "cost": 0.0084,
           "tokens": 2139,
@@ -3390,9 +3426,9 @@
       ]
     },
     "openai": {
-      "today": 0.6,
-      "week": 0.6,
-      "month": 1.6017000000000001,
+      "today": 1.8485999999999998,
+      "week": 1.8485999999999998,
+      "month": 2.8503000000000003,
       "breakdown": [
         {
           "timestamp": 1772545281266,
@@ -3442,6 +3478,27 @@
           "tokens": 110000,
           "model": "openai/gpt-5.1-codex",
           "source": "subagent"
+        },
+        {
+          "timestamp": 1774378273750,
+          "cost": 0.6,
+          "tokens": 110000,
+          "model": "openai/gpt-5.1-codex",
+          "source": "subagent"
+        },
+        {
+          "timestamp": 1774378489294,
+          "cost": 0.6,
+          "tokens": 110000,
+          "model": "openai/gpt-5.1-codex",
+          "source": "subagent"
+        },
+        {
+          "timestamp": 1774378526675,
+          "cost": 0.0486,
+          "tokens": 4172,
+          "model": "openai/gpt-5.1-codex",
+          "source": "session"
         }
       ]
     },
@@ -3483,9 +3540,9 @@
   },
   "costBySource": {
     "cron": {
-      "today": 0.2508,
-      "week": 0.6584999999999996,
-      "month": 4.029999999999998,
+      "today": 0.2564,
+      "week": 1.0898999999999996,
+      "month": 4.035599999999998,
       "breakdown": [
         {
           "timestamp": 1772938881285,
@@ -3988,6 +4045,13 @@
           "timestamp": 1774375231666,
           "cost": 0.0076,
           "tokens": 1935,
+          "model": "anthropic/claude-haiku-4-5",
+          "provider": "anthropic"
+        },
+        {
+          "timestamp": 1774377022537,
+          "cost": 0.0056,
+          "tokens": 1406,
           "model": "anthropic/claude-haiku-4-5",
           "provider": "anthropic"
         },
@@ -4680,12 +4744,26 @@
       ]
     },
     "subagent": {
-      "today": 0.6,
-      "week": 0.6,
-      "month": 0.6,
+      "today": 1.7999999999999998,
+      "week": 1.7999999999999998,
+      "month": 1.7999999999999998,
       "breakdown": [
         {
           "timestamp": 1774376707214,
+          "cost": 0.6,
+          "tokens": 110000,
+          "model": "openai/gpt-5.1-codex",
+          "provider": "openai"
+        },
+        {
+          "timestamp": 1774378273750,
+          "cost": 0.6,
+          "tokens": 110000,
+          "model": "openai/gpt-5.1-codex",
+          "provider": "openai"
+        },
+        {
+          "timestamp": 1774378489294,
           "cost": 0.6,
           "tokens": 110000,
           "model": "openai/gpt-5.1-codex",
@@ -4694,23 +4772,23 @@
       ]
     },
     "session": {
-      "today": 0.034499999999999996,
-      "week": 0.07220000000000001,
-      "month": 0.07220000000000001,
+      "today": 0.08310000000000001,
+      "week": 0.10590000000000001,
+      "month": 0.10590000000000001,
       "breakdown": [
-        {
-          "timestamp": 1774319442808,
-          "cost": 0.0149,
-          "tokens": 3853,
-          "model": "anthropic/claude-haiku-4-5",
-          "provider": "anthropic"
-        },
         {
           "timestamp": 1774371696431,
           "cost": 0.0001,
           "tokens": 424,
           "model": "google/gemini-3-pro-preview",
           "provider": "google"
+        },
+        {
+          "timestamp": 1774378526675,
+          "cost": 0.0486,
+          "tokens": 4172,
+          "model": "openai/gpt-5.1-codex",
+          "provider": "openai"
         },
         {
           "timestamp": 1774333825732,
@@ -4773,37 +4851,37 @@
   },
   "sourceSummary": {
     "cron": {
-      "today": 0.25,
-      "week": 0.66,
-      "month": 4.03,
-      "count": 170
+      "today": 0.26,
+      "week": 1.09,
+      "month": 4.04,
+      "count": 171
     },
     "subagent": {
-      "today": 0.6,
-      "week": 0.6,
-      "month": 0.6,
-      "count": 1
+      "today": 1.8,
+      "week": 1.8,
+      "month": 1.8,
+      "count": 3
     },
     "session": {
-      "today": 0.03,
-      "week": 0.07,
-      "month": 0.07,
+      "today": 0.08,
+      "week": 0.11,
+      "month": 0.11,
       "count": 10
     }
   },
   "costBreakdown": {
     "byProvider": {
-      "anthropic": 3.07,
-      "openai": 1.6,
+      "anthropic": 3.06,
+      "openai": 2.85,
       "google": 0.03,
-      "total": 4.7
+      "total": 5.94
     },
     "bySource": {
-      "cron": 4.03,
-      "subagent": 0.6,
-      "session": 0.07,
-      "total": 4.7
+      "cron": 4.04,
+      "subagent": 1.8,
+      "session": 0.11,
+      "total": 5.94
     }
   },
-  "costLastUpdated": "2026-03-24T18:26:11.682Z"
+  "costLastUpdated": "2026-03-24T18:55:26.774Z"
 }
