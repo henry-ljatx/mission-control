@@ -1,86 +1,1429 @@
 {
-  "timestamp": "2026-03-24T12:01:03.312Z",
+  "timestamp": "2026-03-24T13:57:45.467Z",
   "summary": {
-    "today": 0.5928,
-    "weekToDate": 0.5928,
-    "monthToDate": 0.5928,
+    "today": 0.18,
+    "weekToDate": 0.58,
+    "monthToDate": 3.88,
     "dailyBudget": 20,
     "weeklyBudget": 150,
     "monthlyBudget": 300,
-    "dailyPct": "3.0",
+    "dailyPct": "0.9",
     "weeklyPct": "0.4",
-    "monthlyPct": "0.2"
+    "monthlyPct": "1.3"
   },
   "costs": [
     {
-      "date": "2026-03-24",
-      "job_name": "Morning News Brief",
-      "service": "anthropic",
-      "model": "anthropic/claude-haiku-4-5",
-      "input_tokens": 130000,
-      "output_tokens": 4500,
-      "cost_usd": 0.122,
-      "created_at": "2026-03-24T12:01:03.312Z"
+      "date": "2026-03-07",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 8,
+      "outputTokens": 3410,
+      "cost": 0.0307,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-08",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 6,
+      "outputTokens": 2183,
+      "cost": 0.0197,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-09",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 6,
+      "outputTokens": 1686,
+      "cost": 0.0152,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-10",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 6,
+      "outputTokens": 1862,
+      "cost": 0.0168,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-11",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 6,
+      "outputTokens": 1952,
+      "cost": 0.0176,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-12",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 10,
+      "outputTokens": 2058,
+      "cost": 0.0082,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-13",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 10,
+      "outputTokens": 1132,
+      "cost": 0.0045,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-14",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 36,
+      "outputTokens": 2018,
+      "cost": 0.0081,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-15",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 22,
+      "outputTokens": 2261,
+      "cost": 0.0091,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-16",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 49,
+      "outputTokens": 2986,
+      "cost": 0.012,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 22,
+      "outputTokens": 2270,
+      "cost": 0.0091,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-22",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 46,
+      "outputTokens": 2292,
+      "cost": 0.0092,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-01",
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "inputTokens": 9,
+      "outputTokens": 1513,
+      "cost": 0.1364,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-02",
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "inputTokens": 9,
+      "outputTokens": 1858,
+      "cost": 0.1675,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-08",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 5,
+      "outputTokens": 1135,
+      "cost": 0.0102,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-09",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 5,
+      "outputTokens": 1156,
+      "cost": 0.0104,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-10",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 7,
+      "outputTokens": 1454,
+      "cost": 0.0131,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-11",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 5,
+      "outputTokens": 1278,
+      "cost": 0.0115,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-12",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 8,
+      "outputTokens": 1599,
+      "cost": 0.0144,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-13",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 6,
+      "outputTokens": 1176,
+      "cost": 0.0106,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-14",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 5,
+      "outputTokens": 1177,
+      "cost": 0.0106,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-17",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 5,
+      "outputTokens": 989,
+      "cost": 0.0089,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 9,
+      "outputTokens": 1760,
+      "cost": 0.0159,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 5,
+      "outputTokens": 1268,
+      "cost": 0.0114,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-22",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 5,
+      "outputTokens": 1347,
+      "cost": 0.0121,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 133,
+      "outputTokens": 3748,
+      "cost": 0.0151,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 152,
+      "outputTokens": 4584,
+      "cost": 0.0185,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 1615,
+      "cost": 0.0065,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 36,
+      "outputTokens": 1832,
+      "cost": 0.0074,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 70,
+      "outputTokens": 2535,
+      "cost": 0.0102,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 1421,
+      "cost": 0.0057,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 1495,
+      "cost": 0.006,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 1502,
+      "cost": 0.006,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 143,
+      "outputTokens": 3512,
+      "cost": 0.0142,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 48,
+      "outputTokens": 1997,
+      "cost": 0.008,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 48,
+      "outputTokens": 1694,
+      "cost": 0.0068,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 123,
+      "outputTokens": 3068,
+      "cost": 0.0124,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 70,
+      "outputTokens": 2118,
+      "cost": 0.0085,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 84,
+      "outputTokens": 2279,
+      "cost": 0.0092,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 977,
+      "cost": 0.0039,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 146,
+      "outputTokens": 3707,
+      "cost": 0.0149,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 1247,
+      "cost": 0.005,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 1188,
+      "cost": 0.0048,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 61,
+      "outputTokens": 1521,
+      "cost": 0.0061,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 36,
+      "outputTokens": 1618,
+      "cost": 0.0065,
+      "created_at": "2026-03-24T13:57:45.466Z"
     },
     {
       "date": "2026-03-24",
-      "job_name": "Nightly Ideas Report",
-      "service": "anthropic",
-      "model": "anthropic/claude-haiku-4-5",
-      "input_tokens": 40000,
-      "output_tokens": 2500,
-      "cost_usd": 0.042,
-      "created_at": "2026-03-24T12:01:03.312Z"
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 36,
+      "outputTokens": 1518,
+      "cost": 0.0061,
+      "created_at": "2026-03-24T13:57:45.466Z"
     },
     {
       "date": "2026-03-24",
-      "job_name": "Self-Improvement Scan",
-      "service": "anthropic",
-      "model": "anthropic/claude-haiku-4-5",
-      "input_tokens": 195000,
-      "output_tokens": 16000,
-      "cost_usd": 0.22,
-      "created_at": "2026-03-24T12:01:03.312Z"
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 77,
+      "outputTokens": 2276,
+      "cost": 0.0092,
+      "created_at": "2026-03-24T13:57:45.466Z"
     },
     {
       "date": "2026-03-24",
-      "job_name": "Weekly Manifest Reflection",
-      "service": "anthropic",
-      "model": "anthropic/claude-haiku-4-5",
-      "input_tokens": 23000,
-      "output_tokens": 900,
-      "cost_usd": 0.022,
-      "created_at": "2026-03-24T12:01:03.312Z"
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 36,
+      "outputTokens": 1903,
+      "cost": 0.0076,
+      "created_at": "2026-03-24T13:57:45.466Z"
     },
     {
       "date": "2026-03-24",
-      "job_name": "Daily Self-Improvement Ritual",
-      "service": "anthropic",
-      "model": "anthropic/claude-haiku-4-5",
-      "input_tokens": 159000,
-      "output_tokens": 8600,
-      "cost_usd": 0.1616,
-      "created_at": "2026-03-24T12:01:03.312Z"
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 48,
+      "outputTokens": 2091,
+      "cost": 0.0084,
+      "created_at": "2026-03-24T13:57:45.466Z"
     },
     {
       "date": "2026-03-24",
-      "job_name": "Nightly Reflection & TODO Review",
-      "service": "anthropic",
-      "model": "anthropic/claude-haiku-4-5",
-      "input_tokens": 5000,
-      "output_tokens": 1300,
-      "cost_usd": 0.0092,
-      "created_at": "2026-03-24T12:01:03.312Z"
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 61,
+      "outputTokens": 1848,
+      "cost": 0.0074,
+      "created_at": "2026-03-24T13:57:45.466Z"
     },
     {
       "date": "2026-03-24",
-      "job_name": "OAuth Token Self-Healer (Silent)",
-      "service": "anthropic",
-      "model": "anthropic/claude-haiku-4-5",
-      "input_tokens": 10000,
-      "output_tokens": 2000,
-      "cost_usd": 0.016,
-      "created_at": "2026-03-24T12:01:03.312Z"
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 1489,
+      "cost": 0.006,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 72,
+      "outputTokens": 2624,
+      "cost": 0.0106,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 85,
+      "outputTokens": 2402,
+      "cost": 0.0097,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 61,
+      "outputTokens": 1864,
+      "cost": 0.0075,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 36,
+      "outputTokens": 1612,
+      "cost": 0.0065,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 1039,
+      "cost": 0.0042,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 114,
+      "outputTokens": 3365,
+      "cost": 0.0136,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 61,
+      "outputTokens": 1966,
+      "cost": 0.0079,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 48,
+      "outputTokens": 1464,
+      "cost": 0.0059,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 1316,
+      "cost": 0.0053,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 1586,
+      "cost": 0.0064,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 1265,
+      "cost": 0.0051,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 106,
+      "outputTokens": 2904,
+      "cost": 0.0117,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-08",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 926,
+      "cost": 0.0037,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-09",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 1157,
+      "cost": 0.0046,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-10",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 929,
+      "cost": 0.0037,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-11",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 38,
+      "outputTokens": 1020,
+      "cost": 0.0041,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-12",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 957,
+      "cost": 0.0038,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-13",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 931,
+      "cost": 0.0037,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-14",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 38,
+      "outputTokens": 1236,
+      "cost": 0.005,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-15",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 810,
+      "cost": 0.0033,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-16",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 1077,
+      "cost": 0.0043,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-17",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 861,
+      "cost": 0.0035,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 1367,
+      "cost": 0.0055,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 1160,
+      "cost": 0.0047,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-22",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 38,
+      "outputTokens": 1130,
+      "cost": 0.0046,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 1022,
+      "cost": 0.0041,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-15",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 86,
+      "outputTokens": 4187,
+      "cost": 0.0168,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-16",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 103,
+      "outputTokens": 3420,
+      "cost": 0.0138,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-17",
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "inputTokens": 16,
+      "outputTokens": 2680,
+      "cost": 0.2417,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-22",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 182,
+      "outputTokens": 8237,
+      "cost": 0.0331,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 159,
+      "outputTokens": 8623,
+      "cost": 0.0346,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 37,
+      "outputTokens": 1908,
+      "cost": 0.0077,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-01",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 60,
+      "outputTokens": 3335,
+      "cost": 0.0134,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-02",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 62,
+      "outputTokens": 4521,
+      "cost": 0.0181,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-03",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 141,
+      "outputTokens": 4715,
+      "cost": 0.019,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-03",
+      "provider": "openai",
+      "model": "gpt-5.1-codex",
+      "inputTokens": 17061,
+      "outputTokens": 162,
+      "cost": 0.0354,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-03",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 51,
+      "outputTokens": 4602,
+      "cost": 0.0184,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-04",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 113,
+      "outputTokens": 6929,
+      "cost": 0.0278,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-05",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 52,
+      "outputTokens": 3419,
+      "cost": 0.0137,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-05",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 92,
+      "outputTokens": 5469,
+      "cost": 0.0219,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-06",
+      "provider": "openai",
+      "model": "gpt-5.1-codex",
+      "inputTokens": 74319,
+      "outputTokens": 5403,
+      "cost": 0.1919,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-06",
+      "provider": "openai",
+      "model": "gpt-5.1-codex",
+      "inputTokens": 10202,
+      "outputTokens": 211,
+      "cost": 0.0221,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-06",
+      "provider": "openai",
+      "model": "gpt-5.1-codex",
+      "inputTokens": 42589,
+      "outputTokens": 2101,
+      "cost": 0.102,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-06",
+      "provider": "openai",
+      "model": "gpt-5.1-codex",
+      "inputTokens": 38772,
+      "outputTokens": 1672,
+      "cost": 0.0909,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-06",
+      "provider": "openai",
+      "model": "gpt-5.1-codex",
+      "inputTokens": 102695,
+      "outputTokens": 2514,
+      "cost": 0.2255,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-06",
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "inputTokens": 10,
+      "outputTokens": 4686,
+      "cost": 0.422,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-07",
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "inputTokens": 8,
+      "outputTokens": 3846,
+      "cost": 0.3464,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-08",
+      "provider": "google",
+      "model": "gemini-3-pro-preview",
+      "inputTokens": 112283,
+      "outputTokens": 1465,
+      "cost": 0.0015,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-08",
+      "provider": "google",
+      "model": "gemini-3-pro-preview",
+      "inputTokens": 175528,
+      "outputTokens": 4371,
+      "cost": 0.0024,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-09",
+      "provider": "google",
+      "model": "gemini-3-pro-preview",
+      "inputTokens": 62729,
+      "outputTokens": 3799,
+      "cost": 0.001,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-10",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 11,
+      "outputTokens": 4381,
+      "cost": 0.0395,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-11",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 8,
+      "outputTokens": 4929,
+      "cost": 0.0444,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-12",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 11,
+      "outputTokens": 6465,
+      "cost": 0.0582,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-13",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 66,
+      "outputTokens": 4226,
+      "cost": 0.017,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-14",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 102,
+      "outputTokens": 4343,
+      "cost": 0.0175,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-18",
+      "provider": "anthropic",
+      "model": "claude-opus-4-6",
+      "inputTokens": 9,
+      "outputTokens": 3014,
+      "cost": 0.2715,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 94,
+      "outputTokens": 5852,
+      "cost": 0.0235,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-22",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 91,
+      "outputTokens": 5017,
+      "cost": 0.0201,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 127,
+      "outputTokens": 9153,
+      "cost": 0.0367,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 294,
+      "cost": 0.0012,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 342,
+      "cost": 0.0014,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 887,
+      "cost": 0.0036,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 1065,
+      "cost": 0.0043,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 308,
+      "cost": 0.0013,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 951,
+      "cost": 0.0038,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 875,
+      "cost": 0.0035,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 339,
+      "cost": 0.0014,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 300,
+      "cost": 0.0012,
+      "created_at": "2026-03-24T13:57:45.466Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 864,
+      "cost": 0.0035,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 353,
+      "cost": 0.0014,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 745,
+      "cost": 0.003,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 828,
+      "cost": 0.0033,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 883,
+      "cost": 0.0036,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 1174,
+      "cost": 0.0047,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 864,
+      "cost": 0.0035,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 295,
+      "cost": 0.0012,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 330,
+      "cost": 0.0013,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 1133,
+      "cost": 0.0046,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-08",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 79,
+      "outputTokens": 1178,
+      "cost": 0.0048,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-09",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 58,
+      "outputTokens": 1057,
+      "cost": 0.0043,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-10",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 108,
+      "outputTokens": 1523,
+      "cost": 0.0062,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-11",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 56,
+      "outputTokens": 1038,
+      "cost": 0.0042,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-12",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 74,
+      "outputTokens": 1144,
+      "cost": 0.0046,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-13",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 50,
+      "outputTokens": 1023,
+      "cost": 0.0041,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-14",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 49,
+      "outputTokens": 612,
+      "cost": 0.0025,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-15",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 86,
+      "outputTokens": 2201,
+      "cost": 0.0089,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-16",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 81,
+      "outputTokens": 1688,
+      "cost": 0.0068,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-17",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 56,
+      "outputTokens": 1287,
+      "cost": 0.0052,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-18",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 119,
+      "outputTokens": 3609,
+      "cost": 0.0145,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 111,
+      "outputTokens": 2341,
+      "cost": 0.0095,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-22",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 46,
+      "outputTokens": 1326,
+      "cost": 0.0053,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 142,
+      "outputTokens": 2358,
+      "cost": 0.0095,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-24",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 60,
+      "outputTokens": 1162,
+      "cost": 0.0047,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-07",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 10,
+      "outputTokens": 627,
+      "cost": 0.0025,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-13",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 35,
+      "outputTokens": 2807,
+      "cost": 0.0113,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-13",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 24,
+      "outputTokens": 3172,
+      "cost": 0.0127,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-14",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 52,
+      "outputTokens": 2919,
+      "cost": 0.0117,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-15",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 78,
+      "outputTokens": 3999,
+      "cost": 0.0161,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-16",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 197,
+      "outputTokens": 20390,
+      "cost": 0.0817,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-17",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 121,
+      "outputTokens": 3974,
+      "cost": 0.016,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 183,
+      "outputTokens": 16027,
+      "cost": 0.0643,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 195,
+      "outputTokens": 16156,
+      "cost": 0.0648,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-22",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 79,
+      "outputTokens": 3390,
+      "cost": 0.0136,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-23",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 38,
+      "outputTokens": 3941,
+      "cost": 0.0158,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-16",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 886,
+      "cost": 0.0036,
+      "created_at": "2026-03-24T13:57:45.467Z"
+    },
+    {
+      "date": "2026-03-21",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "inputTokens": 23,
+      "outputTokens": 872,
+      "cost": 0.0035,
+      "created_at": "2026-03-24T13:57:45.467Z"
     }
   ],
   "alerts": [],
@@ -95,135 +1438,66 @@
     "avgBlockerHours": 24,
     "decisionActionRatio": 1.8,
     "totalDecisions": 34,
-    "trends": [
-      {
-        "date": "Mar 18",
-        "decisionHours": 6.5
-      },
-      {
-        "date": "Mar 19",
-        "decisionHours": 5.2
-      },
-      {
-        "date": "Mar 20",
-        "decisionHours": 3.8
-      },
-      {
-        "date": "Mar 21",
-        "decisionHours": 4.1
-      },
-      {
-        "date": "Mar 22",
-        "decisionHours": 3.5
-      },
-      {
-        "date": "Mar 23",
-        "decisionHours": 4.6
-      },
-      {
-        "date": "Mar 24",
-        "decisionHours": 4.2
-      }
-    ]
+    "trends": []
   },
   "autonomyMetrics": {
     "autonomousPercent": 73,
     "userInputPercent": 27,
     "sevenDayTrend": 3.5,
     "totalTasks": 156,
-    "trends": [
-      {
-        "date": "Mar 18",
-        "autonomousPercent": 68
-      },
-      {
-        "date": "Mar 19",
-        "autonomousPercent": 69
-      },
-      {
-        "date": "Mar 20",
-        "autonomousPercent": 71
-      },
-      {
-        "date": "Mar 21",
-        "autonomousPercent": 72
-      },
-      {
-        "date": "Mar 22",
-        "autonomousPercent": 73
-      },
-      {
-        "date": "Mar 23",
-        "autonomousPercent": 74
-      },
-      {
-        "date": "Mar 24",
-        "autonomousPercent": 73
-      }
-    ]
+    "trends": []
   },
   "health": {
     "gmail": {
       "status": "valid",
-      "lastCheck": "2026-03-23T15:56:00Z",
-      "message": "OAuth re-authenticated March 23, 11:49 AM"
+      "lastCheck": "2026-03-24T13:57:45.467Z"
     },
     "telegram": {
       "status": "valid",
-      "lastCheck": "2026-03-23T15:56:00Z"
-    },
-    "google": {
-      "status": "blocker",
-      "lastCheck": "2026-03-23T08:00:00Z",
-      "message": "OpenAI API key invalid - affects memory search"
-    },
-    "twilio": {
-      "status": "blocker",
-      "lastCheck": "2026-03-23T06:00:00Z",
-      "message": "Token rotated March 7 - Render not updated"
+      "lastCheck": "2026-03-24T13:57:45.467Z"
     },
     "cron": {
       "successRate": 85,
-      "lastCheck": "2026-03-23T15:56:00Z"
+      "lastCheck": "2026-03-24T13:57:45.467Z"
     }
   },
   "costByProvider": {
     "anthropic": {
-      "today": 0.17,
-      "week": 0.55,
-      "month": 3.59,
+      "today": 0.17810000000000004,
+      "week": 0.5777,
+      "month": 3.2078999999999986,
       "breakdown": [
         {
           "timestamp": 1772938881285,
-          "cost": 0.0512,
+          "cost": 0.0307,
           "tokens": 3418,
           "model": "claude-sonnet-4-6",
           "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
         },
         {
           "timestamp": 1773021665764,
-          "cost": 0.0328,
+          "cost": 0.0197,
           "tokens": 2189,
           "model": "claude-sonnet-4-6",
           "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
         },
         {
           "timestamp": 1773108058733,
-          "cost": 0.0253,
+          "cost": 0.0152,
           "tokens": 1692,
           "model": "claude-sonnet-4-6",
           "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
         },
         {
           "timestamp": 1773194445723,
-          "cost": 0.0279,
+          "cost": 0.0168,
           "tokens": 1868,
           "model": "claude-sonnet-4-6",
           "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
         },
         {
           "timestamp": 1773280863844,
-          "cost": 0.0293,
+          "cost": 0.0176,
           "tokens": 1958,
           "model": "claude-sonnet-4-6",
           "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
@@ -264,23 +1538,9 @@
           "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
         },
         {
-          "timestamp": 1773799632079,
-          "cost": 0.0107,
-          "tokens": 2742,
-          "model": "claude-haiku-4-5",
-          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
-        },
-        {
           "timestamp": 1774121628864,
           "cost": 0.0091,
           "tokens": 2292,
-          "model": "claude-haiku-4-5",
-          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
-        },
-        {
-          "timestamp": 1774144851288,
-          "cost": 0.0169,
-          "tokens": 4273,
           "model": "claude-haiku-4-5",
           "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
         },
@@ -292,128 +1552,93 @@
           "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
         },
         {
-          "timestamp": 1774317688212,
-          "cost": 0.009,
-          "tokens": 2286,
-          "model": "claude-haiku-4-5",
-          "jobId": "8B2442DF-2D91-4A3D-B815-628DADFFBA21"
-        },
-        {
           "timestamp": 1772420452259,
-          "cost": 0.0909,
+          "cost": 0.1364,
           "tokens": 1522,
           "model": "claude-opus-4-6",
           "jobId": "b13ba6b3-352d-4758-9d42-c8dd9756d627"
         },
         {
           "timestamp": 1772506860034,
-          "cost": 0.1116,
+          "cost": 0.1675,
           "tokens": 1867,
           "model": "claude-opus-4-6",
           "jobId": "b13ba6b3-352d-4758-9d42-c8dd9756d627"
         },
         {
-          "timestamp": 1772942448157,
-          "cost": 0.0299,
-          "tokens": 2000,
-          "model": "claude-sonnet-4-6",
-          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
-        },
-        {
           "timestamp": 1773025234730,
-          "cost": 0.017,
+          "cost": 0.0102,
           "tokens": 1140,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
           "timestamp": 1773111635701,
-          "cost": 0.0174,
+          "cost": 0.0104,
           "tokens": 1161,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
           "timestamp": 1773198052041,
-          "cost": 0.0218,
+          "cost": 0.0131,
           "tokens": 1461,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
           "timestamp": 1773284433626,
-          "cost": 0.0192,
+          "cost": 0.0115,
           "tokens": 1283,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
           "timestamp": 1773370845266,
-          "cost": 0.024,
+          "cost": 0.0144,
           "tokens": 1607,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
           "timestamp": 1773457442370,
-          "cost": 0.0177,
+          "cost": 0.0106,
           "tokens": 1182,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
           "timestamp": 1773543637129,
-          "cost": 0.0177,
+          "cost": 0.0106,
           "tokens": 1182,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
-          "timestamp": 1773630143087,
-          "cost": 0.0881,
-          "tokens": 5901,
-          "model": "claude-sonnet-4-6",
-          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
-        },
-        {
-          "timestamp": 1773716448759,
-          "cost": 0.0336,
-          "tokens": 2247,
-          "model": "claude-sonnet-4-6",
-          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
-        },
-        {
           "timestamp": 1773803162588,
-          "cost": 0.0149,
+          "cost": 0.0089,
           "tokens": 994,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
           "timestamp": 1774121628863,
-          "cost": 0.0264,
+          "cost": 0.0159,
           "tokens": 1769,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
           "timestamp": 1774148434942,
-          "cost": 0.019,
+          "cost": 0.0114,
           "tokens": 1273,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
         {
           "timestamp": 1774234842956,
-          "cost": 0.0202,
+          "cost": 0.0121,
           "tokens": 1352,
-          "model": "claude-sonnet-4-6",
-          "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
-        },
-        {
-          "timestamp": 1774321316313,
-          "cost": 0.0539,
-          "tokens": 3608,
           "model": "claude-sonnet-4-6",
           "jobId": "b7e2f3a1-4c89-4d12-a5b6-8e9f0c1d2e3f"
         },
@@ -428,13 +1653,6 @@
           "timestamp": 1774292462141,
           "cost": 0.0185,
           "tokens": 4736,
-          "model": "claude-haiku-4-5",
-          "jobId": "commitment-enforcer"
-        },
-        {
-          "timestamp": 1774294237323,
-          "cost": 0.0118,
-          "tokens": 2985,
           "model": "claude-haiku-4-5",
           "jobId": "commitment-enforcer"
         },
@@ -677,6 +1895,20 @@
           "jobId": "commitment-enforcer"
         },
         {
+          "timestamp": 1774357253673,
+          "cost": 0.0051,
+          "tokens": 1288,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
+          "timestamp": 1774359049075,
+          "cost": 0.0117,
+          "tokens": 3010,
+          "model": "claude-haiku-4-5",
+          "jobId": "commitment-enforcer"
+        },
+        {
           "timestamp": 1773010820966,
           "cost": 0.0037,
           "tokens": 950,
@@ -790,23 +2022,9 @@
         },
         {
           "timestamp": 1773754815322,
-          "cost": 0.161,
+          "cost": 0.2417,
           "tokens": 2696,
           "model": "claude-opus-4-6",
-          "jobId": "daily-self-improvement-ritual"
-        },
-        {
-          "timestamp": 1773839439468,
-          "cost": 0.0248,
-          "tokens": 6288,
-          "model": "claude-haiku-4-5",
-          "jobId": "daily-self-improvement-ritual"
-        },
-        {
-          "timestamp": 1774121628868,
-          "cost": 0.0359,
-          "tokens": 9052,
-          "model": "claude-haiku-4-5",
           "jobId": "daily-self-improvement-ritual"
         },
         {
@@ -820,6 +2038,13 @@
           "timestamp": 1774270909921,
           "cost": 0.0346,
           "tokens": 8782,
+          "model": "claude-haiku-4-5",
+          "jobId": "daily-self-improvement-ritual"
+        },
+        {
+          "timestamp": 1774357253673,
+          "cost": 0.0077,
+          "tokens": 1945,
           "model": "claude-haiku-4-5",
           "jobId": "daily-self-improvement-ritual"
         },
@@ -873,43 +2098,36 @@
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
-          "timestamp": 1772853834533,
-          "cost": 0.2434,
-          "tokens": 4064,
-          "model": "claude-opus-4-6",
-          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
-        },
-        {
           "timestamp": 1772855924947,
-          "cost": 0.2813,
+          "cost": 0.422,
           "tokens": 4696,
           "model": "claude-opus-4-6",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1772884904329,
-          "cost": 0.2309,
+          "cost": 0.3464,
           "tokens": 3854,
           "model": "claude-opus-4-6",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1773140505587,
-          "cost": 0.0657,
+          "cost": 0.0395,
           "tokens": 4392,
           "model": "claude-sonnet-4-6",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1773226919594,
-          "cost": 0.074,
+          "cost": 0.0444,
           "tokens": 4937,
           "model": "claude-sonnet-4-6",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1773313331040,
-          "cost": 0.097,
+          "cost": 0.0582,
           "tokens": 6476,
           "model": "claude-sonnet-4-6",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
@@ -929,29 +2147,8 @@
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
-          "timestamp": 1773572472997,
-          "cost": 0.0281,
-          "tokens": 7094,
-          "model": "claude-haiku-4-5",
-          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
-        },
-        {
-          "timestamp": 1773658930838,
-          "cost": 0.0549,
-          "tokens": 13815,
-          "model": "claude-haiku-4-5",
-          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
-        },
-        {
-          "timestamp": 1773745289544,
-          "cost": 0.0269,
-          "tokens": 6831,
-          "model": "claude-haiku-4-5",
-          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
-        },
-        {
           "timestamp": 1773833594496,
-          "cost": 0.181,
+          "cost": 0.2715,
           "tokens": 3023,
           "model": "claude-opus-4-6",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
@@ -976,20 +2173,6 @@
           "tokens": 9280,
           "model": "claude-haiku-4-5",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
-        },
-        {
-          "timestamp": 1774350124915,
-          "cost": 0.0191,
-          "tokens": 4852,
-          "model": "claude-haiku-4-5",
-          "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
-        },
-        {
-          "timestamp": 1774290048375,
-          "cost": 0.003,
-          "tokens": 781,
-          "model": "claude-haiku-4-5",
-          "jobId": "hourly-cost-aggregator"
         },
         {
           "timestamp": 1774292473816,
@@ -1114,6 +2297,13 @@
           "timestamp": 1774353670085,
           "cost": 0.0013,
           "tokens": 353,
+          "model": "claude-haiku-4-5",
+          "jobId": "hourly-cost-aggregator"
+        },
+        {
+          "timestamp": 1774357278238,
+          "cost": 0.0046,
+          "tokens": 1168,
           "model": "claude-haiku-4-5",
           "jobId": "hourly-cost-aggregator"
         },
@@ -1318,46 +2508,46 @@
     "openai": {
       "today": 0,
       "week": 0,
-      "month": 3.22,
+      "month": 0.6678,
       "breakdown": [
         {
           "timestamp": 1772545281266,
-          "cost": 0.1755,
+          "cost": 0.0354,
           "tokens": 17223,
           "model": "gpt-5.1-codex",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1772798564297,
-          "cost": 0.9053,
+          "cost": 0.1919,
           "tokens": 79722,
           "model": "gpt-5.1-codex",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1772813259415,
-          "cost": 0.1084,
+          "cost": 0.0221,
           "tokens": 10413,
           "model": "gpt-5.1-codex",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1772815120585,
-          "cost": 0.4889,
+          "cost": 0.102,
           "tokens": 44690,
           "model": "gpt-5.1-codex",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1772816482103,
-          "cost": 0.4379,
+          "cost": 0.0909,
           "tokens": 40444,
           "model": "gpt-5.1-codex",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1772851722006,
-          "cost": 1.1024,
+          "cost": 0.2255,
           "tokens": 105209,
           "model": "gpt-5.1-codex",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
@@ -1367,25 +2557,25 @@
     "google": {
       "today": 0,
       "week": 0,
-      "month": 0.03,
+      "month": 0.0049,
       "breakdown": [
         {
           "timestamp": 1772967457480,
-          "cost": 0.0089,
+          "cost": 0.0015,
           "tokens": 113748,
           "model": "gemini-3-pro-preview",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1772967672793,
-          "cost": 0.0145,
+          "cost": 0.0024,
           "tokens": 179899,
           "model": "gemini-3-pro-preview",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
         },
         {
           "timestamp": 1773054069094,
-          "cost": 0.0058,
+          "cost": 0.001,
           "tokens": 66528,
           "model": "gemini-3-pro-preview",
           "jobId": "e064825f-92d9-4646-bab1-166db25c1e1e"
@@ -1393,5 +2583,5 @@
       ]
     }
   },
-  "costLastUpdated": "2026-03-24T12:42:31.597Z"
+  "costLastUpdated": "2026-03-24T13:57:45.467Z"
 }
