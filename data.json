@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-24T13:57:45.467Z",
+  "timestamp": "2026-03-24T13:59:33.148Z",
   "summary": {
     "today": 0.18,
     "weekToDate": 0.58,
@@ -19,7 +19,7 @@
       "inputTokens": 8,
       "outputTokens": 3410,
       "cost": 0.0307,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-08",
@@ -28,7 +28,7 @@
       "inputTokens": 6,
       "outputTokens": 2183,
       "cost": 0.0197,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-09",
@@ -37,7 +37,7 @@
       "inputTokens": 6,
       "outputTokens": 1686,
       "cost": 0.0152,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-10",
@@ -46,7 +46,7 @@
       "inputTokens": 6,
       "outputTokens": 1862,
       "cost": 0.0168,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-11",
@@ -55,7 +55,7 @@
       "inputTokens": 6,
       "outputTokens": 1952,
       "cost": 0.0176,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-12",
@@ -64,7 +64,7 @@
       "inputTokens": 10,
       "outputTokens": 2058,
       "cost": 0.0082,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-13",
@@ -73,7 +73,7 @@
       "inputTokens": 10,
       "outputTokens": 1132,
       "cost": 0.0045,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-14",
@@ -82,7 +82,7 @@
       "inputTokens": 36,
       "outputTokens": 2018,
       "cost": 0.0081,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-15",
@@ -91,7 +91,7 @@
       "inputTokens": 22,
       "outputTokens": 2261,
       "cost": 0.0091,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-16",
@@ -100,7 +100,7 @@
       "inputTokens": 49,
       "outputTokens": 2986,
       "cost": 0.012,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -109,7 +109,7 @@
       "inputTokens": 22,
       "outputTokens": 2270,
       "cost": 0.0091,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-22",
@@ -118,7 +118,7 @@
       "inputTokens": 46,
       "outputTokens": 2292,
       "cost": 0.0092,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-01",
@@ -127,7 +127,7 @@
       "inputTokens": 9,
       "outputTokens": 1513,
       "cost": 0.1364,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-02",
@@ -136,7 +136,7 @@
       "inputTokens": 9,
       "outputTokens": 1858,
       "cost": 0.1675,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-08",
@@ -145,7 +145,7 @@
       "inputTokens": 5,
       "outputTokens": 1135,
       "cost": 0.0102,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-09",
@@ -154,7 +154,7 @@
       "inputTokens": 5,
       "outputTokens": 1156,
       "cost": 0.0104,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-10",
@@ -163,7 +163,7 @@
       "inputTokens": 7,
       "outputTokens": 1454,
       "cost": 0.0131,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-11",
@@ -172,7 +172,7 @@
       "inputTokens": 5,
       "outputTokens": 1278,
       "cost": 0.0115,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-12",
@@ -181,7 +181,7 @@
       "inputTokens": 8,
       "outputTokens": 1599,
       "cost": 0.0144,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-13",
@@ -190,7 +190,7 @@
       "inputTokens": 6,
       "outputTokens": 1176,
       "cost": 0.0106,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-14",
@@ -199,7 +199,7 @@
       "inputTokens": 5,
       "outputTokens": 1177,
       "cost": 0.0106,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-17",
@@ -208,7 +208,7 @@
       "inputTokens": 5,
       "outputTokens": 989,
       "cost": 0.0089,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -217,7 +217,7 @@
       "inputTokens": 9,
       "outputTokens": 1760,
       "cost": 0.0159,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -226,7 +226,7 @@
       "inputTokens": 5,
       "outputTokens": 1268,
       "cost": 0.0114,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-22",
@@ -235,7 +235,7 @@
       "inputTokens": 5,
       "outputTokens": 1347,
       "cost": 0.0121,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -244,7 +244,7 @@
       "inputTokens": 133,
       "outputTokens": 3748,
       "cost": 0.0151,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -253,7 +253,7 @@
       "inputTokens": 152,
       "outputTokens": 4584,
       "cost": 0.0185,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -262,7 +262,7 @@
       "inputTokens": 23,
       "outputTokens": 1615,
       "cost": 0.0065,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -271,7 +271,7 @@
       "inputTokens": 36,
       "outputTokens": 1832,
       "cost": 0.0074,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -280,7 +280,7 @@
       "inputTokens": 70,
       "outputTokens": 2535,
       "cost": 0.0102,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -289,7 +289,7 @@
       "inputTokens": 24,
       "outputTokens": 1421,
       "cost": 0.0057,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -298,7 +298,7 @@
       "inputTokens": 24,
       "outputTokens": 1495,
       "cost": 0.006,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -307,7 +307,7 @@
       "inputTokens": 23,
       "outputTokens": 1502,
       "cost": 0.006,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -316,7 +316,7 @@
       "inputTokens": 143,
       "outputTokens": 3512,
       "cost": 0.0142,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -325,7 +325,7 @@
       "inputTokens": 48,
       "outputTokens": 1997,
       "cost": 0.008,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -334,7 +334,7 @@
       "inputTokens": 48,
       "outputTokens": 1694,
       "cost": 0.0068,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -343,7 +343,7 @@
       "inputTokens": 123,
       "outputTokens": 3068,
       "cost": 0.0124,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -352,7 +352,7 @@
       "inputTokens": 70,
       "outputTokens": 2118,
       "cost": 0.0085,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -361,7 +361,7 @@
       "inputTokens": 84,
       "outputTokens": 2279,
       "cost": 0.0092,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -370,7 +370,7 @@
       "inputTokens": 23,
       "outputTokens": 977,
       "cost": 0.0039,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -379,7 +379,7 @@
       "inputTokens": 146,
       "outputTokens": 3707,
       "cost": 0.0149,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -388,7 +388,7 @@
       "inputTokens": 24,
       "outputTokens": 1247,
       "cost": 0.005,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -397,7 +397,7 @@
       "inputTokens": 23,
       "outputTokens": 1188,
       "cost": 0.0048,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -406,7 +406,7 @@
       "inputTokens": 61,
       "outputTokens": 1521,
       "cost": 0.0061,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -415,7 +415,7 @@
       "inputTokens": 36,
       "outputTokens": 1618,
       "cost": 0.0065,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -424,7 +424,7 @@
       "inputTokens": 36,
       "outputTokens": 1518,
       "cost": 0.0061,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -433,7 +433,7 @@
       "inputTokens": 77,
       "outputTokens": 2276,
       "cost": 0.0092,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -442,7 +442,7 @@
       "inputTokens": 36,
       "outputTokens": 1903,
       "cost": 0.0076,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -451,7 +451,7 @@
       "inputTokens": 48,
       "outputTokens": 2091,
       "cost": 0.0084,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -460,7 +460,7 @@
       "inputTokens": 61,
       "outputTokens": 1848,
       "cost": 0.0074,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -469,7 +469,7 @@
       "inputTokens": 23,
       "outputTokens": 1489,
       "cost": 0.006,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -478,7 +478,7 @@
       "inputTokens": 72,
       "outputTokens": 2624,
       "cost": 0.0106,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -487,7 +487,7 @@
       "inputTokens": 85,
       "outputTokens": 2402,
       "cost": 0.0097,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -496,7 +496,7 @@
       "inputTokens": 61,
       "outputTokens": 1864,
       "cost": 0.0075,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -505,7 +505,7 @@
       "inputTokens": 36,
       "outputTokens": 1612,
       "cost": 0.0065,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -514,7 +514,7 @@
       "inputTokens": 24,
       "outputTokens": 1039,
       "cost": 0.0042,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -523,7 +523,7 @@
       "inputTokens": 114,
       "outputTokens": 3365,
       "cost": 0.0136,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -532,7 +532,7 @@
       "inputTokens": 61,
       "outputTokens": 1966,
       "cost": 0.0079,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -541,7 +541,7 @@
       "inputTokens": 48,
       "outputTokens": 1464,
       "cost": 0.0059,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -550,7 +550,7 @@
       "inputTokens": 23,
       "outputTokens": 1316,
       "cost": 0.0053,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -559,7 +559,7 @@
       "inputTokens": 23,
       "outputTokens": 1586,
       "cost": 0.0064,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -568,7 +568,7 @@
       "inputTokens": 23,
       "outputTokens": 1265,
       "cost": 0.0051,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -577,7 +577,7 @@
       "inputTokens": 106,
       "outputTokens": 2904,
       "cost": 0.0117,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-08",
@@ -586,7 +586,7 @@
       "inputTokens": 24,
       "outputTokens": 926,
       "cost": 0.0037,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-09",
@@ -595,7 +595,7 @@
       "inputTokens": 24,
       "outputTokens": 1157,
       "cost": 0.0046,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-10",
@@ -604,7 +604,7 @@
       "inputTokens": 24,
       "outputTokens": 929,
       "cost": 0.0037,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-11",
@@ -613,7 +613,7 @@
       "inputTokens": 38,
       "outputTokens": 1020,
       "cost": 0.0041,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-12",
@@ -622,7 +622,7 @@
       "inputTokens": 24,
       "outputTokens": 957,
       "cost": 0.0038,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-13",
@@ -631,7 +631,7 @@
       "inputTokens": 24,
       "outputTokens": 931,
       "cost": 0.0037,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-14",
@@ -640,7 +640,7 @@
       "inputTokens": 38,
       "outputTokens": 1236,
       "cost": 0.005,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-15",
@@ -649,7 +649,7 @@
       "inputTokens": 24,
       "outputTokens": 810,
       "cost": 0.0033,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-16",
@@ -658,7 +658,7 @@
       "inputTokens": 35,
       "outputTokens": 1077,
       "cost": 0.0043,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-17",
@@ -667,7 +667,7 @@
       "inputTokens": 24,
       "outputTokens": 861,
       "cost": 0.0035,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -676,7 +676,7 @@
       "inputTokens": 24,
       "outputTokens": 1367,
       "cost": 0.0055,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -685,7 +685,7 @@
       "inputTokens": 24,
       "outputTokens": 1160,
       "cost": 0.0047,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-22",
@@ -694,7 +694,7 @@
       "inputTokens": 38,
       "outputTokens": 1130,
       "cost": 0.0046,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -703,7 +703,7 @@
       "inputTokens": 24,
       "outputTokens": 1022,
       "cost": 0.0041,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-15",
@@ -712,7 +712,7 @@
       "inputTokens": 86,
       "outputTokens": 4187,
       "cost": 0.0168,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-16",
@@ -721,7 +721,7 @@
       "inputTokens": 103,
       "outputTokens": 3420,
       "cost": 0.0138,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-17",
@@ -730,7 +730,7 @@
       "inputTokens": 16,
       "outputTokens": 2680,
       "cost": 0.2417,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-22",
@@ -739,7 +739,7 @@
       "inputTokens": 182,
       "outputTokens": 8237,
       "cost": 0.0331,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -748,7 +748,7 @@
       "inputTokens": 159,
       "outputTokens": 8623,
       "cost": 0.0346,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -757,7 +757,7 @@
       "inputTokens": 37,
       "outputTokens": 1908,
       "cost": 0.0077,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-01",
@@ -766,7 +766,7 @@
       "inputTokens": 60,
       "outputTokens": 3335,
       "cost": 0.0134,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-02",
@@ -775,7 +775,7 @@
       "inputTokens": 62,
       "outputTokens": 4521,
       "cost": 0.0181,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-03",
@@ -784,7 +784,7 @@
       "inputTokens": 141,
       "outputTokens": 4715,
       "cost": 0.019,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-03",
@@ -793,7 +793,7 @@
       "inputTokens": 17061,
       "outputTokens": 162,
       "cost": 0.0354,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-03",
@@ -802,7 +802,7 @@
       "inputTokens": 51,
       "outputTokens": 4602,
       "cost": 0.0184,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-04",
@@ -811,7 +811,7 @@
       "inputTokens": 113,
       "outputTokens": 6929,
       "cost": 0.0278,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-05",
@@ -820,7 +820,7 @@
       "inputTokens": 52,
       "outputTokens": 3419,
       "cost": 0.0137,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-05",
@@ -829,7 +829,7 @@
       "inputTokens": 92,
       "outputTokens": 5469,
       "cost": 0.0219,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-06",
@@ -838,7 +838,7 @@
       "inputTokens": 74319,
       "outputTokens": 5403,
       "cost": 0.1919,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-06",
@@ -847,7 +847,7 @@
       "inputTokens": 10202,
       "outputTokens": 211,
       "cost": 0.0221,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-06",
@@ -856,7 +856,7 @@
       "inputTokens": 42589,
       "outputTokens": 2101,
       "cost": 0.102,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-06",
@@ -865,7 +865,7 @@
       "inputTokens": 38772,
       "outputTokens": 1672,
       "cost": 0.0909,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-06",
@@ -874,7 +874,7 @@
       "inputTokens": 102695,
       "outputTokens": 2514,
       "cost": 0.2255,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-06",
@@ -883,7 +883,7 @@
       "inputTokens": 10,
       "outputTokens": 4686,
       "cost": 0.422,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-07",
@@ -892,7 +892,7 @@
       "inputTokens": 8,
       "outputTokens": 3846,
       "cost": 0.3464,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-08",
@@ -901,7 +901,7 @@
       "inputTokens": 112283,
       "outputTokens": 1465,
       "cost": 0.0015,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-08",
@@ -910,7 +910,7 @@
       "inputTokens": 175528,
       "outputTokens": 4371,
       "cost": 0.0024,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-09",
@@ -919,7 +919,7 @@
       "inputTokens": 62729,
       "outputTokens": 3799,
       "cost": 0.001,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-10",
@@ -928,7 +928,7 @@
       "inputTokens": 11,
       "outputTokens": 4381,
       "cost": 0.0395,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-11",
@@ -937,7 +937,7 @@
       "inputTokens": 8,
       "outputTokens": 4929,
       "cost": 0.0444,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-12",
@@ -946,7 +946,7 @@
       "inputTokens": 11,
       "outputTokens": 6465,
       "cost": 0.0582,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-13",
@@ -955,7 +955,7 @@
       "inputTokens": 66,
       "outputTokens": 4226,
       "cost": 0.017,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-14",
@@ -964,7 +964,7 @@
       "inputTokens": 102,
       "outputTokens": 4343,
       "cost": 0.0175,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-18",
@@ -973,7 +973,7 @@
       "inputTokens": 9,
       "outputTokens": 3014,
       "cost": 0.2715,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -982,7 +982,7 @@
       "inputTokens": 94,
       "outputTokens": 5852,
       "cost": 0.0235,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-22",
@@ -991,7 +991,7 @@
       "inputTokens": 91,
       "outputTokens": 5017,
       "cost": 0.0201,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1000,7 +1000,7 @@
       "inputTokens": 127,
       "outputTokens": 9153,
       "cost": 0.0367,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1009,7 +1009,7 @@
       "inputTokens": 23,
       "outputTokens": 294,
       "cost": 0.0012,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1018,7 +1018,7 @@
       "inputTokens": 23,
       "outputTokens": 342,
       "cost": 0.0014,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1027,7 +1027,7 @@
       "inputTokens": 35,
       "outputTokens": 887,
       "cost": 0.0036,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1036,7 +1036,7 @@
       "inputTokens": 35,
       "outputTokens": 1065,
       "cost": 0.0043,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1045,7 +1045,7 @@
       "inputTokens": 23,
       "outputTokens": 308,
       "cost": 0.0013,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1054,7 +1054,7 @@
       "inputTokens": 35,
       "outputTokens": 951,
       "cost": 0.0038,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1063,7 +1063,7 @@
       "inputTokens": 35,
       "outputTokens": 875,
       "cost": 0.0035,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1072,7 +1072,7 @@
       "inputTokens": 23,
       "outputTokens": 339,
       "cost": 0.0014,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1081,7 +1081,7 @@
       "inputTokens": 23,
       "outputTokens": 300,
       "cost": 0.0012,
-      "created_at": "2026-03-24T13:57:45.466Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1090,7 +1090,7 @@
       "inputTokens": 35,
       "outputTokens": 864,
       "cost": 0.0035,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1099,7 +1099,7 @@
       "inputTokens": 23,
       "outputTokens": 353,
       "cost": 0.0014,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1108,7 +1108,7 @@
       "inputTokens": 35,
       "outputTokens": 745,
       "cost": 0.003,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1117,7 +1117,7 @@
       "inputTokens": 35,
       "outputTokens": 828,
       "cost": 0.0033,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1126,7 +1126,7 @@
       "inputTokens": 35,
       "outputTokens": 883,
       "cost": 0.0036,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1135,7 +1135,7 @@
       "inputTokens": 35,
       "outputTokens": 1174,
       "cost": 0.0047,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1144,7 +1144,7 @@
       "inputTokens": 35,
       "outputTokens": 864,
       "cost": 0.0035,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1153,7 +1153,7 @@
       "inputTokens": 23,
       "outputTokens": 295,
       "cost": 0.0012,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1162,7 +1162,7 @@
       "inputTokens": 23,
       "outputTokens": 330,
       "cost": 0.0013,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1171,7 +1171,7 @@
       "inputTokens": 35,
       "outputTokens": 1133,
       "cost": 0.0046,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-08",
@@ -1180,7 +1180,7 @@
       "inputTokens": 79,
       "outputTokens": 1178,
       "cost": 0.0048,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-09",
@@ -1189,7 +1189,7 @@
       "inputTokens": 58,
       "outputTokens": 1057,
       "cost": 0.0043,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-10",
@@ -1198,7 +1198,7 @@
       "inputTokens": 108,
       "outputTokens": 1523,
       "cost": 0.0062,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-11",
@@ -1207,7 +1207,7 @@
       "inputTokens": 56,
       "outputTokens": 1038,
       "cost": 0.0042,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-12",
@@ -1216,7 +1216,7 @@
       "inputTokens": 74,
       "outputTokens": 1144,
       "cost": 0.0046,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-13",
@@ -1225,7 +1225,7 @@
       "inputTokens": 50,
       "outputTokens": 1023,
       "cost": 0.0041,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-14",
@@ -1234,7 +1234,7 @@
       "inputTokens": 49,
       "outputTokens": 612,
       "cost": 0.0025,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-15",
@@ -1243,7 +1243,7 @@
       "inputTokens": 86,
       "outputTokens": 2201,
       "cost": 0.0089,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-16",
@@ -1252,7 +1252,7 @@
       "inputTokens": 81,
       "outputTokens": 1688,
       "cost": 0.0068,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-17",
@@ -1261,7 +1261,7 @@
       "inputTokens": 56,
       "outputTokens": 1287,
       "cost": 0.0052,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-18",
@@ -1270,7 +1270,7 @@
       "inputTokens": 119,
       "outputTokens": 3609,
       "cost": 0.0145,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -1279,7 +1279,7 @@
       "inputTokens": 111,
       "outputTokens": 2341,
       "cost": 0.0095,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-22",
@@ -1288,7 +1288,7 @@
       "inputTokens": 46,
       "outputTokens": 1326,
       "cost": 0.0053,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1297,7 +1297,7 @@
       "inputTokens": 142,
       "outputTokens": 2358,
       "cost": 0.0095,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-24",
@@ -1306,7 +1306,7 @@
       "inputTokens": 60,
       "outputTokens": 1162,
       "cost": 0.0047,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-07",
@@ -1315,7 +1315,7 @@
       "inputTokens": 10,
       "outputTokens": 627,
       "cost": 0.0025,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-13",
@@ -1324,7 +1324,7 @@
       "inputTokens": 35,
       "outputTokens": 2807,
       "cost": 0.0113,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-13",
@@ -1333,7 +1333,7 @@
       "inputTokens": 24,
       "outputTokens": 3172,
       "cost": 0.0127,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-14",
@@ -1342,7 +1342,7 @@
       "inputTokens": 52,
       "outputTokens": 2919,
       "cost": 0.0117,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-15",
@@ -1351,7 +1351,7 @@
       "inputTokens": 78,
       "outputTokens": 3999,
       "cost": 0.0161,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-16",
@@ -1360,7 +1360,7 @@
       "inputTokens": 197,
       "outputTokens": 20390,
       "cost": 0.0817,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-17",
@@ -1369,7 +1369,7 @@
       "inputTokens": 121,
       "outputTokens": 3974,
       "cost": 0.016,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -1378,7 +1378,7 @@
       "inputTokens": 183,
       "outputTokens": 16027,
       "cost": 0.0643,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -1387,7 +1387,7 @@
       "inputTokens": 195,
       "outputTokens": 16156,
       "cost": 0.0648,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-22",
@@ -1396,7 +1396,7 @@
       "inputTokens": 79,
       "outputTokens": 3390,
       "cost": 0.0136,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-23",
@@ -1405,7 +1405,7 @@
       "inputTokens": 38,
       "outputTokens": 3941,
       "cost": 0.0158,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-16",
@@ -1414,7 +1414,7 @@
       "inputTokens": 23,
       "outputTokens": 886,
       "cost": 0.0036,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     },
     {
       "date": "2026-03-21",
@@ -1423,7 +1423,7 @@
       "inputTokens": 23,
       "outputTokens": 872,
       "cost": 0.0035,
-      "created_at": "2026-03-24T13:57:45.467Z"
+      "created_at": "2026-03-24T13:59:33.148Z"
     }
   ],
   "alerts": [],
@@ -1450,15 +1450,15 @@
   "health": {
     "gmail": {
       "status": "valid",
-      "lastCheck": "2026-03-24T13:57:45.467Z"
+      "lastCheck": "2026-03-24T13:59:33.148Z"
     },
     "telegram": {
       "status": "valid",
-      "lastCheck": "2026-03-24T13:57:45.467Z"
+      "lastCheck": "2026-03-24T13:59:33.148Z"
     },
     "cron": {
       "successRate": 85,
-      "lastCheck": "2026-03-24T13:57:45.467Z"
+      "lastCheck": "2026-03-24T13:59:33.148Z"
     }
   },
   "costByProvider": {
@@ -2583,5 +2583,76 @@
       ]
     }
   },
-  "costLastUpdated": "2026-03-24T13:57:45.467Z"
+  "costLastUpdated": "2026-03-24T13:59:33.148Z",
+  "decisionVelocity": {
+    "avgDecisionTimeHours": 4.2,
+    "avgBlockerDurationHours": 24,
+    "decisionToActionRatio": 1.8,
+    "totalDecisions": 34,
+    "trend7Day": [
+      {
+        "date": "2026-03-18",
+        "avgTime": 6.5
+      },
+      {
+        "date": "2026-03-19",
+        "avgTime": 5.8
+      },
+      {
+        "date": "2026-03-20",
+        "avgTime": 5.2
+      },
+      {
+        "date": "2026-03-21",
+        "avgTime": 4.8
+      },
+      {
+        "date": "2026-03-22",
+        "avgTime": 4.5
+      },
+      {
+        "date": "2026-03-23",
+        "avgTime": 4.3
+      },
+      {
+        "date": "2026-03-24",
+        "avgTime": 4.2
+      }
+    ]
+  },
+  "autonomyScoring": {
+    "autonomousTasksPct": 73,
+    "blockedTasksPct": 27,
+    "autonomyTrend7Day": [
+      {
+        "date": "2026-03-18",
+        "autonomousPct": 68
+      },
+      {
+        "date": "2026-03-19",
+        "autonomousPct": 69
+      },
+      {
+        "date": "2026-03-20",
+        "autonomousPct": 69.5
+      },
+      {
+        "date": "2026-03-21",
+        "autonomousPct": 70.2
+      },
+      {
+        "date": "2026-03-22",
+        "autonomousPct": 71.5
+      },
+      {
+        "date": "2026-03-23",
+        "autonomousPct": 72.3
+      },
+      {
+        "date": "2026-03-24",
+        "autonomousPct": 73
+      }
+    ],
+    "totalTasks": 156
+  }
 }
